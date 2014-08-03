@@ -1,6 +1,7 @@
+require 'spec_helper'
 require 'fappu/connection'
 
-describe Fappu::Connection do
+describe Fappu::Connection, vcr: {cassette_name: 'connection'} do
   describe ".new" do
     subject { described_class.new }
 
@@ -18,6 +19,5 @@ describe Fappu::Connection do
       expect(subject['total']).to be > 0
     end
   end
-
 
 end
