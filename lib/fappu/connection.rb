@@ -1,5 +1,5 @@
+require 'open-uri'
 require 'json'
-require 'faraday'
 
 module Fappu
   class Connection
@@ -8,10 +8,11 @@ module Fappu
 
     def initialize(settings={})
       @base_url = settings[:base_url] || "https://api.fakku.net/index"
-      connection = Faraday.new(url: @base_url)
 
-      @response = connection.get
-      @body = JSON.parse @response.body
+      # @response =  RestClient.get @base_url
+      @response = URI.parse(@base_url).read
+
+      @body = JSON.parse @response
       @title = @response['title']
     end
 
