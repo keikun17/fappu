@@ -7,7 +7,9 @@ module Fappu
     URL = "https://api.fakku.net/manga"
 
     attr_accessor :title, :url, :description, :language, :category, :date, :filesize,
-      :favorites, :comments, :pages, :poster, :poster_url, :tags
+      :favorites, :comments, :pages, :poster, :poster_url, :tags, :translators,
+      :series, :artists, :images, :tags
+
 
 
     def initialize args
@@ -20,6 +22,7 @@ module Fappu
       response = JSON.parse( URI.parse(URL).read )
       arr = response["latest"]
 
+      puts arr.first.inspect
       arr.collect do |manga|
         self.new(title: manga["content_name"],
                  url: manga["content_url"],
