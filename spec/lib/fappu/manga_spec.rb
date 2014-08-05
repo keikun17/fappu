@@ -24,23 +24,21 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
           comments: 0,
           pages: 21,
           poster: "LustyLady00",
-          poster_url: "http://www.fakku.net/users/lustylady00"
+          poster_url: "http://www.fakku.net/users/lustylady00",
           # translators: "kk",
           # series: "",
           # artists: "",
-          # images: ""
+          # images: "",
+          tags: include( 
+                        {"attribute" => "Paizuri", "attribute_link"  =>'/tags/paizuri'},
+                        {"attribute" => "Oral", "attribute_link" => "/tags/oral"},
+                        {"attribute" => "Oppai", "attribute_link" => "/tags/oppai"},
+                        {"attribute" => "Hentai", "attribute_link" => "/tags/hentai"},
+                        {"attribute" => "Ahegao", "attribute_link" => "/tags/ahegao"}
+                       )
         )
       end
 
-      specify "retrieves the correct tags" do
-        expect(described_class.latest.first.tags).to include(
-          {"attribute" => "Paizuri", "attribute_link"  =>'/tags/paizuri'},
-          {"attribute" => "Oral", "attribute_link" => "/tags/oral"},
-          {"attribute" => "Oppai", "attribute_link" => "/tags/oppai"},
-          {"attribute" => "Hentai", "attribute_link" => "/tags/hentai"},
-          {"attribute" => "Ahegao", "attribute_link" => "/tags/ahegao"}
-        )
-      end
 
     end
   end
