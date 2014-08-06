@@ -8,13 +8,13 @@ module Fappu
       :series, :artists, :images, :tags
 
 
-
     def initialize args
       args.each do |k,v|
         instance_variable_set("@#{k}",v) unless v.nil?
       end
     end
 
+    # Returns an array of the latest mangas as Manga instances
     def self.latest
       response = JSON.parse( URI.parse(URL).read )
       arr = response["latest"]
