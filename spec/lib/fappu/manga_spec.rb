@@ -69,6 +69,11 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
   end
 
   describe ".controversial" do
-    subject { described_class.controversial }
+    subject { described_class.controversial.first }
+    context "something " do
+      it {
+        is_expected.to have_attributes(title: "Maso Mess Ch14")
+      }
+    end
   end
 end

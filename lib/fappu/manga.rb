@@ -43,6 +43,17 @@ module Fappu
         self.new(manga_parameters(manga))
       end
     end
+
+    # Returns an array of the most controversial mangas as Manga instances
+    def self.controversial
+      response = JSON.parse( URI.parse(URL).read )
+      arr = response["controversial"]
+
+      arr.collect do |manga|
+        self.new(manga_parameters(manga))
+      end
+    end
+
     private
 
     # Removes the 'content' suffix for manga attributes from the json response
