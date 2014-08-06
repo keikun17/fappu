@@ -1,26 +1,26 @@
 # Fappu
 
-TODO: Write a gem description
+A gem that pulls data from api.fakku.net
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'fappu'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install fappu
+Fakku's API docs can be found at [https://developers.fakku.net/documentation](https://developers.fakku.net/documentation)
 
 ## Usage
 
-TODO: Write usage instructions here
+To get the latest manga
+
+    Fappu::Manga.latest
+
+To get a list of the most favorited manga
+
+    Fappu::Manga.favorites
+
+To get a list of the most popular/read manga
+
+    Fappu::Manga.popular
+
+And to get the list of the most popular manga
+
+    Fappu::manga.controversial
 
 ## Contributing
 
