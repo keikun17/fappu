@@ -45,6 +45,12 @@ Manga instances respond to the following (WIP)
  - read
  - related
 
+## Tags
+
+To get a list of available tags
+
+    Fappu::Tags.list     # Also .all
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/fappu/fork )
