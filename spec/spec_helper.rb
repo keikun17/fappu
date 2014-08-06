@@ -1,5 +1,6 @@
 require 'bundler/setup'
 require 'vcr'
+require 'pry'
 
 Bundler.setup
 
