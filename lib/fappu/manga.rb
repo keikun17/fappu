@@ -22,7 +22,6 @@ module Fappu
       response = JSON.parse( URI.parse(URL).read )
       arr = response["latest"]
 
-      puts arr.first.inspect
       arr.collect do |manga|
         self.new(title: manga["content_name"],
                  url: manga["content_url"],
@@ -36,7 +35,13 @@ module Fappu
                  pages: manga["content_pages"],
                  poster: manga["content_poster"],
                  poster_url: manga["content_poster_url"],
+                 tags: manga["content_tags"],
+                 translators: manga["content_translators"],
+                 series: manga["content_series"],
+                 artists: manga["content_artists"],
+                 images: manga["content_images"],
                  tags: manga["content_tags"]
+
                 )
       end
     end

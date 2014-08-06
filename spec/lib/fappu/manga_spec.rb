@@ -25,11 +25,23 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
           pages: 21,
           poster: "LustyLady00",
           poster_url: "http://www.fakku.net/users/lustylady00",
-          # translators: "kk",
-          # series: "",
-          # artists: "",
-          # images: "",
-          tags: include( 
+          translators: include(
+            {"attribute" => "Lazarus H", "attribute_link" => "/translators/lazarus-h"}
+          ),
+          series: include(
+            {"attribute" => "Original Work", "attribute_link" => "/series/original-work"},
+          ),
+          artists: include(
+            {"attribute" => "Hiroyuki Kai", "attribute_link" => "/artists/hiroyuki-kai"},
+            {"attribute" => "kai hiroyuki", "attribute_link" => "/artists/kai-hiroyuki"}
+          ),
+          images: include(
+            {
+              "cover" => "https://t.fakku.net/images/manga/m/[Hiroyuki_Kai,_kai_hiroyuki]_Original_Work_-_My_Mountain_Village_Journal_Chapter_1_1407126682/thumbs/001.thumb.jpg",
+              "sample" => "https://t.fakku.net/images/manga/m/[Hiroyuki_Kai,_kai_hiroyuki]_Original_Work_-_My_Mountain_Village_Journal_Chapter_1_1407126682/thumbs/002.thumb.jpg"
+            }
+          ),
+          tags: include(
                         {"attribute" => "Paizuri", "attribute_link"  =>'/tags/paizuri'},
                         {"attribute" => "Oral", "attribute_link" => "/tags/oral"},
                         {"attribute" => "Oppai", "attribute_link" => "/tags/oppai"},
