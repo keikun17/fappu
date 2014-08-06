@@ -60,7 +60,12 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
 
 
   describe ".popular" do
-    subject { described_class.popular }
+    subject { described_class.popular.first }
+    context "This siscon manga with extremely long title is in the list" do
+      it {
+        is_expected.to have_attributes(title: "More than a little sister, less than a friend? / More than a little sister, less than a bride?")
+      }
+    end
   end
 
   describe ".controversial" do

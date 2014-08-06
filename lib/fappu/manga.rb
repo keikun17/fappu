@@ -34,6 +34,15 @@ module Fappu
       end
     end
 
+    # Returns an array of the most popular mangas as Manga instances
+    def self.popular
+      response = JSON.parse( URI.parse(URL).read )
+      arr = response["popular"]
+
+      arr.collect do |manga|
+        self.new(manga_parameters(manga))
+      end
+    end
     private
 
     # Removes the 'content' suffix for manga attributes from the json response
