@@ -1,8 +1,6 @@
 require 'spec_helper'
-require 'fappu/manga'
 
 describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
-
 
   describe ".latest" do
     subject { described_class.latest }
@@ -11,7 +9,7 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
     context "The first manga in the 'latest' list is 'My Mountain Village Journal Chapter 1'" do
       subject { described_class.latest.first }
 
-      specify "Assigns the correct values to the object" do
+      it "Assigns the correct values to the object" do
         is_expected.to have_attributes(
           title: "My Mountain Village Journal Chapter 1",
           url: "http://www.fakku.net/manga/my-mountain-village-journal-chapter-1-english-1407126681",

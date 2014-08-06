@@ -1,10 +1,7 @@
 require "fappu/version"
-require "fappu/manga"
+
+require 'open-uri'
+require 'json'
+
 require "fappu/connection"
-
-module Fappu
-  # Your code goes here...
-
-  def connection_settings
-  end
-end
+require "fappu/manga"
