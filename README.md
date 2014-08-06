@@ -6,6 +6,9 @@ Fakku's API docs can be found at [https://developers.fakku.net/documentation](ht
 
 ## Usage
 
+
+### Manga
+
 To get the latest manga
 
     Fappu::Manga.latest
@@ -22,6 +25,25 @@ And to get the list of the most popular manga
 
     Fappu::manga.controversial
 
+To get a list of mangas from a given tag (WIP)
+
+    Fappu::Manga.tagged('tag-name')
+
+To get details from a specific manga (WIP)
+
+    Fappu::Manga.find(title: 'manga-title')
+
+To search for Manga titles falling under a given term (WIP)
+
+    Fappu::Manga.search('search term')
+
+
+Manga instances respond to the following (WIP)
+
+ - comments
+ - download
+ - read
+ - related
 
 ## Contributing
 
