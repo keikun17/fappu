@@ -48,14 +48,14 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
                        )
         )
       end
-
-
     end
   end
 
   describe ".favorites" do
-    # subject { described_class.favorites }
-    # it { expect(subject).to be_a Fappu::Manga }
+    subject { described_class.favorites.first }
+    context "Tiny boobs is the first favorite" do
+      it { is_expected.to have_attributes(title: "Tiny Boobs Giant Tits History") }
+    end
   end
 
 
