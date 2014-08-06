@@ -20,26 +20,17 @@ module Fappu
       arr = response["latest"]
 
       arr.collect do |manga|
-        self.new(title: manga["content_name"],
-                 url: manga["content_url"],
-                 description: manga["content_description"],
-                 language: manga["content_language"],
-                 category: manga["content_category"],
-                 date: manga["content_date"],
-                 filesize: manga["content_filesize"],
-                 favorites: manga["content_favorites"],
-                 comments: manga["content_comments"],
-                 pages: manga["content_pages"],
-                 poster: manga["content_poster"],
-                 poster_url: manga["content_poster_url"],
-                 tags: manga["content_tags"],
-                 translators: manga["content_translators"],
-                 series: manga["content_series"],
-                 artists: manga["content_artists"],
-                 images: manga["content_images"],
-                 tags: manga["content_tags"]
+        self.new(manga_parameters(manga))
+      end
+    end
 
-                )
+    # Returns an array of the most favorite'd mangas as Manga instances
+    def self.favorites
+      response = JSON.parse( URI.parse(URL).read )
+      arr = response["favorites"]
+
+      arr.collect do |manga|
+        self.new(manga_parameters(manga))
       end
     end
   end
