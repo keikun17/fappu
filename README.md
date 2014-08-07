@@ -40,7 +40,8 @@ To search for Manga titles falling under a given term (WIP)
 
 Manga instances respond to the following
 
- - comments(page: page) # page_num defaults to 1
+ - top_comments
+ - comments(page: page) # WIP
  - download # WIP
  - read # WIP
  - related # WIP
