@@ -54,6 +54,16 @@ module Fappu
       end
     end
 
+    def top_comments
+      response = JSON.parse( URI.parse(comment_api_url + "/top").read )
+      arr = response['comments']
+
+      arr.collect do |comment|
+        Fappu::Comment.new(comment)
+      end
+    end
+
+
     def comments(page = 1)
       response = JSON.parse( URI.parse(comment_api_url(page: page)).read )
       arr.collect do |comment|
@@ -87,8 +97,7 @@ module Fappu
       }
     end
 
-    def comment_api_url(options)
-      page = options[:page]
+    def comment_api_url
 
       comment_url = URI(url)
 
