@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.fakku.net/manga/right-now-while-cleaning-the-pool/comments
+    uri: https://api.fakku.net/manga/right-now-while-cleaning-the-pool/comments/page/1
     body:
       encoding: US-ASCII
       string: ''
@@ -15,26 +15,26 @@ http_interactions:
       - Ruby
   response:
     status:
-      code: 200
-      message: OK
+      code: 301
+      message: Moved Permanently
     headers:
       Server:
       - cloudflare-nginx
       Date:
-      - Thu, 07 Aug 2014 06:14:17 GMT
+      - Thu, 07 Aug 2014 06:44:22 GMT
       Content-Type:
-      - application/json
+      - text/html
       Transfer-Encoding:
       - chunked
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=de82a4e89c904599c4072ff2a7b303f491407392057392; expires=Mon, 23-Dec-2019
+      - __cfduid=d8570d2ac064fa868c81fb09de3a9f4801407393861604; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fakku.net; HttpOnly
-      Access-Control-Allow-Origin:
-      - '*'
+      Location:
+      - http://api.fakku.net/manga/right-now-while-cleaning-the-pool/comments
       X-Varnish:
-      - '834572642'
+      - '834886395'
       Age:
       - '0'
       Via:
@@ -44,109 +44,17 @@ http_interactions:
       Dicks:
       - PH
       Cf-Ray:
-      - 15615546b8430bc3-HKG
+      - 1561815305e10ba5-HKG
     body:
       encoding: UTF-8
-      string: '{"top":[{"comment_id":8018488,"comment_attached_id":null,"comment_poster":"checkerzam","comment_poster_url":"http:\/\/www.fakku.net\/users\/checkerzam","comment_reputation":145,"comment_text":"I
-        wish i had a hot girlfriend like that...\n\nI wish my girlfriend was hot...\n\nI
-        wish i had a girlfriend ;-;","comment_date":1379013826},{"comment_id":8018502,"comment_attached_id":null,"comment_poster":"cedet","comment_poster_url":"http:\/\/www.fakku.net\/users\/cedet","comment_reputation":24,"comment_text":"I
-        don''t know about the rest of you bros, but I was amazed by how well done
-        the drawings of fluids (water and otherwise) are in this one, you gotta hand
-        it to Yamatogawa-sensei to put so much effot in details that are not part
-        of the human body in a porn comic.","comment_date":1379015498},{"comment_id":8018985,"comment_attached_id":8018488,"comment_poster":"vanilla_love","comment_poster_url":"http:\/\/www.fakku.net\/users\/vanilla-love","comment_reputation":23,"comment_text":"But
-        if I had one, will I break up with my right hand? (TT^TT)","comment_date":1379159614},{"comment_id":8018551,"comment_attached_id":8018488,"comment_poster":"ReinAbel","comment_poster_url":"http:\/\/www.fakku.net\/users\/reinabel","comment_reputation":18,"comment_text":"Sorry
-        checkerz. Your day will come. But right now. Let''s enjoy some much loved
-        Yamatogawa till then!","comment_date":1379027951},{"comment_id":8019913,"comment_attached_id":8018551,"comment_poster":"checkerzam","comment_poster_url":"http:\/\/www.fakku.net\/users\/checkerzam","comment_reputation":22,"comment_text":"Man.
-        I love you guys.\nWhere else can you get this community ;-;","comment_date":1379478574},{"comment_id":8018579,"comment_attached_id":8018502,"comment_poster":"godsend","comment_poster_url":"http:\/\/www.fakku.net\/users\/godsend","comment_reputation":11,"comment_text":"Yamatogawa
-        is a fucking god of hentai.\nSeriously, I don''t know why none of his stuff
-        has been animated yet, other than that it might temporarily drain the world''s
-        semen reserves.","comment_date":1379035764},{"comment_id":8018778,"comment_attached_id":8018488,"comment_poster":"Simuleino","comment_poster_url":"http:\/\/www.fakku.net\/users\/simuleino-6245128","comment_reputation":10,"comment_text":"Same
-        here :(","comment_date":1379089528},{"comment_id":8019646,"comment_attached_id":8018939,"comment_poster":"Nobitowned","comment_poster_url":"http:\/\/www.fakku.net\/users\/nobitowned","comment_reputation":8,"comment_text":"I''ve
-        got a girfriend, and I''m still holding my dick in my hand. That''s not an
-        impediment.","comment_date":1379368394},{"comment_id":8018661,"comment_attached_id":8018488,"comment_poster":"steingate26","comment_poster_url":"http:\/\/www.fakku.net\/users\/steingate26","comment_reputation":8,"comment_text":"i
-        gets more and more depressed after reading ur comment.","comment_date":1379046976},{"comment_id":8018939,"comment_attached_id":8018488,"comment_poster":"puertoricanguy","comment_poster_url":"http:\/\/www.fakku.net\/users\/puertoricanguy-2536654","comment_reputation":8,"comment_text":"well
-        guys holding our dicks in our hands and watching hentai manga isn''t going
-        to help us get a girl friend","comment_date":1379145693},{"comment_id":8018539,"comment_attached_id":8018488,"comment_poster":"dom01374","comment_poster_url":"http:\/\/www.fakku.net\/users\/dom01374","comment_reputation":7,"comment_text":"Pg
-        7 That Smirk","comment_date":1379022621},{"comment_id":8018800,"comment_attached_id":8018579,"comment_poster":"godsend","comment_poster_url":"http:\/\/www.fakku.net\/users\/godsend","comment_reputation":6,"comment_text":"._.\n\no_o\n\nO_O\n\n(O)_(O)\n\n\n*keels
-        over while hyperventilating*","comment_date":1379101437},{"comment_id":8019569,"comment_attached_id":8018488,"comment_poster":"MrsSomeoneElse","comment_poster_url":"http:\/\/www.fakku.net\/users\/mrssomeoneelse-1576075","comment_reputation":6,"comment_text":"I
-        wish i had a hot boyfriend like that...:\/","comment_date":1379327260},{"comment_id":8018604,"comment_attached_id":8018579,"comment_poster":"Spikesandwich","comment_poster_url":"http:\/\/www.fakku.net\/users\/spikesandwich","comment_reputation":6,"comment_text":"Actually
-        Tayu Tayu the animation is coming out end of this month.","comment_date":1379039231},{"comment_id":8018720,"comment_attached_id":8018488,"comment_poster":"SirTweetums","comment_poster_url":"http:\/\/www.fakku.net\/users\/sirtweetums","comment_reputation":8,"comment_text":"I
-        feel your pain brother. T.T","comment_date":1379060955},{"comment_id":8018508,"comment_attached_id":8018502,"comment_poster":"Sanji05","comment_poster_url":"http:\/\/www.fakku.net\/users\/sanji05","comment_reputation":5,"comment_text":"Well,
-        if it''s the art of the fluids in what you''re interested, look in the Works
-        of Hisasi. His characters are always covered in fluids.","comment_date":1379016447},{"comment_id":8024951,"comment_attached_id":8018939,"comment_poster":"Bazzie4","comment_poster_url":"http:\/\/www.fakku.net\/users\/bazzie4","comment_reputation":4,"comment_text":"True......(._.)","comment_date":1381041857},{"comment_id":8018702,"comment_attached_id":8018488,"comment_poster":"Lord
-        Fappington","comment_poster_url":"http:\/\/www.fakku.net\/users\/lord-fappington-2308639","comment_reputation":4,"comment_text":"You
-        can get a temporary girlfriend.  They charge by the hour\/nut though.","comment_date":1379055056},{"comment_id":8018546,"comment_attached_id":8018488,"comment_poster":"the
-        darktrea","comment_poster_url":"http:\/\/www.fakku.net\/users\/the-darktrea","comment_reputation":4,"comment_text":"I
-        wish i had a girlfriend to.... T-T","comment_date":1379025654},{"comment_id":8018555,"comment_attached_id":8018502,"comment_poster":"Gwyrion","comment_poster_url":"http:\/\/www.fakku.net\/users\/gwyrion","comment_reputation":2,"comment_text":"Honestly,
-        that''s what I always look for in a god drawing or animation. If the person
-        can do water well, they''re a good artist.","comment_date":1379029866},{"comment_id":8019367,"comment_attached_id":8018488,"comment_poster":"iPoodTouch","comment_poster_url":"http:\/\/www.fakku.net\/users\/ipoodtouch","comment_reputation":2,"comment_text":"I
-        wish I live in hentai world","comment_date":1379267944},{"comment_id":8052749,"comment_attached_id":8018702,"comment_poster":"puertoricanguy","comment_poster_url":"http:\/\/www.fakku.net\/users\/puertoricanguy-2536654","comment_reputation":2,"comment_text":"its
-        ok we can just have sex with them and give them pleasure so unimaginable that
-        they stay with us....only in hentai","comment_date":1388576525},{"comment_id":8019728,"comment_attached_id":8018579,"comment_poster":"Nobitowned","comment_poster_url":"http:\/\/www.fakku.net\/users\/nobitowned","comment_reputation":2,"comment_text":"I
-        just hope they don''t fuck it up with a shitty animation. My heart would tear
-        apart ;_;","comment_date":1379403382},{"comment_id":8018520,"comment_attached_id":8018508,"comment_poster":"cedet","comment_poster_url":"http:\/\/www.fakku.net\/users\/cedet","comment_reputation":2,"comment_text":"first
-        I was like Hisasi who...? Hisasi-&gt;search, then I went oh fuck yeah hisasi.\nthanks
-        for reminding me of this one.","comment_date":1379018022},{"comment_id":8057286,"comment_attached_id":8018488,"comment_poster":"Rhythmless","comment_poster_url":"http:\/\/www.fakku.net\/users\/rhythmless","comment_reputation":2,"comment_text":"Girls
-        are like trampolines.\nI dont have one. \n;-;","comment_date":1389672583},{"comment_id":8019235,"comment_attached_id":8018939,"comment_poster":"thelonelyturtle
-        ","comment_poster_url":"http:\/\/www.fakku.net\/users\/thelonelyturtle-","comment_reputation":1,"comment_text":"your
-        right. I search the fukka form for a new right hand or new onahole should
-        be to hard. kanojo hunt","comment_date":1379228040},{"comment_id":8076076,"comment_attached_id":8018488,"comment_poster":"vptwarrior","comment_poster_url":"http:\/\/www.fakku.net\/users\/vptwarrior-3387461","comment_reputation":1,"comment_text":"(pats
-        on back)","comment_date":1394142229},{"comment_id":8018522,"comment_attached_id":8018508,"comment_poster":"crimson
-        vanilla","comment_poster_url":"http:\/\/www.fakku.net\/users\/crimson-vanilla","comment_reputation":1,"comment_text":"all
-        ahil allmighty hisasi king and eternal ruler of mondan details!!!","comment_date":1379018794},{"comment_id":8050294,"comment_attached_id":8018488,"comment_poster":"RexFapicus","comment_poster_url":"http:\/\/www.fakku.net\/users\/rexfapicus-6470614","comment_reputation":1,"comment_text":"just
-        put your hand in hot water.\n\nworks for me....","comment_date":1388005708},{"comment_id":8018554,"comment_attached_id":8018488,"comment_poster":"Gwyrion","comment_poster_url":"http:\/\/www.fakku.net\/users\/gwyrion","comment_reputation":1,"comment_text":"Tfwngf.","comment_date":1379029823},{"comment_id":8018565,"comment_attached_id":8018488,"comment_poster":"shark420","comment_poster_url":"http:\/\/www.fakku.net\/users\/shark420","comment_reputation":1,"comment_text":"I
-        wish i could come so much in me girlfriend and she dont get pregnant O_o","comment_date":1379031973},{"comment_id":8018630,"comment_attached_id":8018579,"comment_poster":"StrayCatWalking","comment_poster_url":"http:\/\/www.fakku.net\/users\/straycatwalking","comment_reputation":1,"comment_text":"...Welp,
-        goodbye, world! See you in three months!","comment_date":1379043693},{"comment_id":8032730,"comment_attached_id":8018488,"comment_poster":"Kaze616","comment_poster_url":"http:\/\/www.fakku.net\/users\/kaze616-4894032","comment_reputation":1,"comment_text":"I
-        had a hot girlfriend. . They are very high maintenance. Just make sure you
-        are ready to provide and have alot of patience \nI tell you this from from
-        experience.","comment_date":1383147553},{"comment_id":8019174,"comment_attached_id":8018579,"comment_poster":"Sighing","comment_poster_url":"http:\/\/www.fakku.net\/users\/sighing","comment_reputation":1,"comment_text":"Tayu
-        Tayu... Anime... It''s not Witchcraft but who cares omg...\n\n\nOMG! my balls...
-        I need to store up...","comment_date":1379210248}],"comments":[{"comment_id":8111903,"comment_attached_id":null,"comment_poster":"Loglorn","comment_poster_url":"http:\/\/www.fakku.net\/users\/loglorn-4385440","comment_reputation":1,"comment_text":"\"She''s
-        an outstanding talent who only appears once a decade\" \n\nIndeed, she gives
-        very good blowjobs.","comment_date":1404531155},{"comment_id":8090544,"comment_attached_id":null,"comment_poster":"tsundereprincessu","comment_poster_url":"http:\/\/www.fakku.net\/users\/tsundereprincessu-8701006","comment_reputation":1,"comment_text":"I
-        wish this happend to me, this guy is so cute ;\/\/\/;''''","comment_date":1397884166},{"comment_id":8063180,"comment_attached_id":null,"comment_poster":"Pr0m3th3u5","comment_poster_url":"http:\/\/www.fakku.net\/users\/pr0m3th3u5-6250769","comment_reputation":1,"comment_text":"GG
-        well played Izumo","comment_date":1391055438},{"comment_id":8052270,"comment_attached_id":null,"comment_poster":"shotgun
-        raptor","comment_poster_url":"http:\/\/www.fakku.net\/users\/shotgun-raptor-4979433","comment_reputation":1,"comment_text":"Im
-        crying right now... \nI wish ihad a girlfriend ;_;","comment_date":1388472950},{"comment_id":8052243,"comment_attached_id":null,"comment_poster":"EagleHook","comment_poster_url":"http:\/\/www.fakku.net\/users\/eaglehook","comment_reputation":1,"comment_text":"Women...Can''t
-        live with them, can''t live without them...","comment_date":1388471169},{"comment_id":8042705,"comment_attached_id":null,"comment_poster":"Blackstar999","comment_poster_url":"http:\/\/www.fakku.net\/users\/blackstar999-9631329","comment_reputation":1,"comment_text":"\"First
-        you get the job, then you get the car, then you get the girlfriend.\"\nThat''s
-        how it works, guys. When you ask out that cute cashier at the grocery store,
-        you need a car to take her on a date!","comment_date":1386143855},{"comment_id":8040934,"comment_attached_id":null,"comment_poster":"Obergurke","comment_poster_url":"http:\/\/www.fakku.net\/users\/obergurke-2194105","comment_reputation":1,"comment_text":"What?
-        No DLL?\nWhy must you hurt me in this way? TT____TT","comment_date":1385598439},{"comment_id":8035152,"comment_attached_id":null,"comment_poster":"suri7388","comment_poster_url":"http:\/\/www.fakku.net\/users\/suri7388-9944394","comment_reputation":1,"comment_text":"I
-        wish I had a boyfriend","comment_date":1383750494},{"comment_id":8027983,"comment_attached_id":null,"comment_poster":"skcrex","comment_poster_url":"http:\/\/www.fakku.net\/users\/skcrex-3908165","comment_reputation":-2,"comment_text":"I
-        wish i had a hot girlfriend like that...\n\nI wish my girlfriend was hot...\n\nI
-        wish i had a girlfriend ;-;","comment_date":1381976373},{"comment_id":8026220,"comment_attached_id":null,"comment_poster":"Sasta","comment_poster_url":"http:\/\/www.fakku.net\/users\/sasta","comment_reputation":1,"comment_text":"Pg
-        7: dat face","comment_date":1381288296},{"comment_id":8026162,"comment_attached_id":null,"comment_poster":"Serathis","comment_poster_url":"http:\/\/www.fakku.net\/users\/serathis","comment_reputation":1,"comment_text":"Yamatogawa!
-        But no Sara :(","comment_date":1381272476},{"comment_id":8022890,"comment_attached_id":null,"comment_poster":"micro4","comment_poster_url":"http:\/\/www.fakku.net\/users\/micro4","comment_reputation":1,"comment_text":"you
-        know is it just me or more recently are Japanese artists now doing with cocks
-        what they did with tits? you know add 5 in.....","comment_date":1380513435},{"comment_id":8022647,"comment_attached_id":null,"comment_poster":"Takumi168","comment_poster_url":"http:\/\/www.fakku.net\/users\/takumi168","comment_reputation":1,"comment_text":"anyone
-        noticed that they teleported from the roof to the pool lol.","comment_date":1380450741},{"comment_id":8022440,"comment_attached_id":null,"comment_poster":"smellslikesquid","comment_poster_url":"http:\/\/www.fakku.net\/users\/smellslikesquid-8591316","comment_reputation":1,"comment_text":"in
-        the last panel on page 4 it looks like the dick is singing","comment_date":1380374087},{"comment_id":8020421,"comment_attached_id":null,"comment_poster":"GQ","comment_poster_url":"http:\/\/www.fakku.net\/users\/gq","comment_reputation":1,"comment_text":"FanFucking-tastic.","comment_date":1379652684},{"comment_id":8020267,"comment_attached_id":null,"comment_poster":"minigod","comment_poster_url":"http:\/\/www.fakku.net\/users\/minigod","comment_reputation":1,"comment_text":"I
-        love the work of Yamatogawa sensei, really great ero, and not to hard fuck,
-        looking forward for his next work","comment_date":1379609839},{"comment_id":8020097,"comment_attached_id":null,"comment_poster":"Zero_J","comment_poster_url":"http:\/\/www.fakku.net\/users\/zero-j","comment_reputation":1,"comment_text":"Yamatogawa
-        = instafave","comment_date":1379554423},{"comment_id":8019868,"comment_attached_id":null,"comment_poster":"Namaki","comment_poster_url":"http:\/\/www.fakku.net\/users\/namaki-4522313","comment_reputation":1,"comment_text":"If
-        Saya from Blood+ was black... This is probably how she would look.","comment_date":1379465324},{"comment_id":8019805,"comment_attached_id":null,"comment_poster":"Scoped_Knife","comment_poster_url":"http:\/\/www.fakku.net\/users\/scoped-knife","comment_reputation":1,"comment_text":"The
-        king returns.","comment_date":1379444211},{"comment_id":8019749,"comment_attached_id":null,"comment_poster":"somesensaidude","comment_poster_url":"http:\/\/www.fakku.net\/users\/somesensaidude","comment_reputation":1,"comment_text":"Dark
-        skin. Nuff Said.","comment_date":1379425155},{"comment_id":8019599,"comment_attached_id":null,"comment_poster":"Wirewolf16","comment_poster_url":"http:\/\/www.fakku.net\/users\/wirewolf16","comment_reputation":1,"comment_text":"And
-        Yamatogawa strikes gold again.","comment_date":1379343420},{"comment_id":8019558,"comment_attached_id":null,"comment_poster":"MissM","comment_poster_url":"http:\/\/www.fakku.net\/users\/missm","comment_reputation":2,"comment_text":"YAMATOGAWAAAAAA\nomg
-        super happy, Yamatogawa basically got me INTO hentai and I love their art
-        style. Plus they draw both male and female not only attractively but in a
-        variety of styles (i.e. they all look like unique characters). And the dialogue
-        is generally good, too.","comment_date":1379323716},{"comment_id":8019322,"comment_attached_id":null,"comment_poster":"ManlyMinataur","comment_poster_url":"http:\/\/www.fakku.net\/users\/manlyminataur","comment_reputation":1,"comment_text":"Awww
-        what a great girlfriend! ! Lol guys don''t be discouraged!  You''ll find a
-        good girl that wants to do freaky stuff in public places!","comment_date":1379252267},{"comment_id":8019259,"comment_attached_id":null,"comment_poster":"Musushi","comment_poster_url":"http:\/\/www.fakku.net\/users\/musushi","comment_reputation":0,"comment_text":"Dark
-        skin aaaaand tanlines, I always just love those two go so well with eachother~
-        Yum","comment_date":1379233586},{"comment_id":8019236,"comment_attached_id":null,"comment_poster":"thelonelyturtle
-        ","comment_poster_url":"http:\/\/www.fakku.net\/users\/thelonelyturtle-","comment_reputation":1,"comment_text":"kanojo
-        hunt who with me.","comment_date":1379228101},{"comment_id":8019220,"comment_attached_id":null,"comment_poster":"DCM2000","comment_poster_url":"http:\/\/www.fakku.net\/users\/dcm2000","comment_reputation":1,"comment_text":"Jeez,
-        you guys sound pathetic. Wishing for a girlfriend on a hentai site won''t
-        get you anywhere. Go outside, mingle, talk. Come on now.","comment_date":1379224313},{"comment_id":8019210,"comment_attached_id":null,"comment_poster":"ayoubjezine","comment_poster_url":"http:\/\/www.fakku.net\/users\/ayoubjezine","comment_reputation":1,"comment_text":"did
-        someone noticed the name of the page when you read online?\n\"Read right now,
-        while cleaning the pool\"","comment_date":1379221718},{"comment_id":8019173,"comment_attached_id":null,"comment_poster":"Sighing","comment_poster_url":"http:\/\/www.fakku.net\/users\/sighing","comment_reputation":0,"comment_text":"If
-        I had a girlfriend I would be biased about her licking me and then kissing
-        me right after...\n\nIf I had a girlfriend...","comment_date":1379210137},{"comment_id":8019022,"comment_attached_id":null,"comment_poster":"AzrielTheAngel","comment_poster_url":"http:\/\/www.fakku.net\/users\/azrieltheangel","comment_reputation":1,"comment_text":"perfectly
-        plan...","comment_date":1379174187},{"comment_id":8019014,"comment_attached_id":null,"comment_poster":"banii","comment_poster_url":"http:\/\/www.fakku.net\/users\/banii","comment_reputation":2,"comment_text":"sghosug
-        I need to buy a physical copy of this, this was such a \/pretty\/ hentai.","comment_date":1379172898}],"total":109,"page":1,"pages":4}'
+      string: |
+        <html>
+        <head><title>301 Moved Permanently</title></head>
+        <body bgcolor="white">
+        <center><h1>301 Moved Permanently</h1></center>
+        <hr><center>nginx</center>
+        </body>
+        </html>
     http_version: 
-  recorded_at: Thu, 07 Aug 2014 06:14:18 GMT
+  recorded_at: Thu, 07 Aug 2014 06:44:20 GMT
 recorded_with: VCR 2.9.2

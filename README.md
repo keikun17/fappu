@@ -38,12 +38,12 @@ To search for Manga titles falling under a given term (WIP)
     Fappu::Manga.search('search term')
 
 
-Manga instances respond to the following (WIP)
+Manga instances respond to the following
 
- - comments
- - download
- - read
- - related
+ - comments(page: page) # page_num defaults to 1
+ - download # WIP
+ - read # WIP
+ - related # WIP
 
 ## Tags
 

@@ -54,8 +54,11 @@ module Fappu
       end
     end
 
-    def comments
-      response = JSON.parse( URI.parse(comment_api_url).read )
+    def comments(page = 1)
+      response = JSON.parse( URI.parse(comment_api_url(page: page)).read )
+      arr.collect do |comment|
+        Fappu::Comment.new(manga_parameters(comment))
+      end
     end
 
     private
@@ -84,7 +87,9 @@ module Fappu
       }
     end
 
-    def comment_api_url
+    def comment_api_url(options)
+      page = options[:page]
+
       comment_url = URI(url)
 
       new_host = comment_url.host.split('.')
@@ -92,7 +97,7 @@ module Fappu
 
       comment_url.host = new_host.join('.')
       comment_url.scheme = 'https'
-      comment_url.path += '/comments'
+      comment_url.path += "/comments/page/#{page}"
 
       comment_url.to_s
     end
