@@ -96,18 +96,8 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
     context "The manga is 'Right now while cleaning the pool' has comments", vcr: { cassette_name: 'pool_cleaning_comments' } do
       subject { described_class.new(url: 'https://www.fakku.net/manga/right-now-while-cleaning-the-pool') }
 
-      it "is not empty" do
-        # expect(subject.comments.count).not_to be_zero
-        pending
-      end
-
-      it "returns comment objects" do
-        # expect(subject.comments).to have_attributes(
-        #   comments: be_a_kind_of(Fappu::Comment) # or w/e meta way to cycle
-        #   # through each comment and make sure they are valid instances
-        # )
-        pending
-      end
+      it "is not empty"
+      it "returns comment objects"
 
     end
   end
