@@ -76,4 +76,20 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
       }
     end
   end
+
+  describe "#comments" do
+    context "The manga is 'Right now while cleaning the pool' has comments", vcr: { cassette_name: 'pool_cleaning_comments' } do
+      subject { described_class.new(url: 'https://www.fakku.net/manga/right-now-while-cleaning-the-pool') }
+
+      it "is not empty" do
+        expect(subject.comments.count).not_to be_zero
+      end
+
+      # it "returns comment objects" do
+      #   expect(e)
+      #   
+      #
+      # end
+    end
+  end
 end

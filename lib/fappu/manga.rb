@@ -54,6 +54,10 @@ module Fappu
       end
     end
 
+    def comments
+      response = JSON.parse( URI.parse(comment_api_url).read )
+    end
+
     private
 
     # Removes the 'content' suffix for manga attributes from the json response
@@ -78,6 +82,19 @@ module Fappu
         images: manga["content_images"],
         tags: manga["content_tags"]
       }
+    end
+
+    def comment_api_url
+      comment_url = URI(url)
+
+      new_host = comment_url.host.split('.')
+      new_host[0] = 'api'
+
+      comment_url.host = new_host.join('.')
+      comment_url.scheme = 'https'
+      comment_url.path += '/comments'
+
+      comment_url.to_s
     end
 
   end
