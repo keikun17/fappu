@@ -19,7 +19,7 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
           date: 1407126681,
           filesize: 18129800,
           favorites: 0,
-          comments: 0,
+          comment_count: 0,
           pages: 21,
           poster: "LustyLady00",
           poster_url: "http://www.fakku.net/users/lustylady00",

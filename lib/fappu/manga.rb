@@ -4,7 +4,7 @@ module Fappu
     URL = "https://api.fakku.net/manga"
 
     attr_accessor :title, :url, :description, :language, :category, :date, :filesize,
-      :favorites, :comments, :pages, :poster, :poster_url, :tags, :translators,
+      :favorites, :comment_count, :pages, :poster, :poster_url, :tags, :translators,
       :series, :artists, :images, :tags
 
 
@@ -67,7 +67,7 @@ module Fappu
         date: manga["content_date"],
         filesize: manga["content_filesize"],
         favorites: manga["content_favorites"],
-        comments: manga["content_comments"],
+        comment_count: manga["content_comments"],
         pages: manga["content_pages"],
         poster: manga["content_poster"],
         poster_url: manga["content_poster_url"],
