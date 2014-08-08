@@ -50,7 +50,7 @@ Manga instances respond to the following
 
 To get a list of available tags
 
-    Fappu::Tags.list     # Also .all
+    Fappu::Tag.list
 
 ## Contributing
 
