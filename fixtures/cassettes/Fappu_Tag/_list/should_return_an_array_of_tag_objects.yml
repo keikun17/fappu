@@ -1,0 +1,273 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.fakku.net/tags
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 08 Aug 2014 05:21:37 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dded9c522fb82d93834ddeae1e99048d71407475296984; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.fakku.net; HttpOnly
+      Access-Control-Allow-Origin:
+      - '*'
+      X-Varnish:
+      - 847242697 847224164
+      Age:
+      - '103'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - HIT
+      Dicks:
+      - PH
+      Cf-Ray:
+      - 1569457e230e0bb1-HKG
+    body:
+      encoding: UTF-8
+      string: '{"tags":[{"tag_name":"Ahegao","tag_url":"http:\/\/www.fakku.net\/tags\/ahegao","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/ahegao.png","tag_description":"The
+        Ahegao (\u30a2\u30d8\u9854, which has often been interpreted as \u201cweird
+        face\u201d, ahe coming from the Japanese onomatopoeia of \u201c\u30a2\u30d8\u30a2\u30d8(aheahe)\u201d
+        describing female\u2019s flushed breath\/moaning in sex and her sexual excitement,
+        gao meaning \u201cface\u201d) is an exploitable phenomenon taking place in
+        pictures of close-up faces from a token character modified in order to have
+        a kind of lust-filled, overly exaggerated orgasmic expression, the eyes usually
+        rolled up with teardrops\/sweat at times, the mouth wide open with the tongue
+        sticking out and blushing cheeks."},{"tag_name":"Anal","tag_url":"http:\/\/www.fakku.net\/tags\/anal","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/anal.png","tag_description":"Anal
+        sex refers to the sex act involving insertion of the penis into the anus of
+        a sex partner. Manga with this tag will include scenes of anal sex, either
+        with or without permission from the receiving person.<br \/><br \/><i>Source:
+        <a href=\"http:\/\/en.wikipedia.org\/wiki\/Anal_sex\" rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Ashikoki","tag_url":"http:\/\/www.fakku.net\/tags\/ashikoki","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/ashikoki.jpg","tag_description":"Ashikoki
+        (\u3042\u3057\u3053\u304d) is the Japanese term for footjob. A footjob is
+        a sexual act where the genitalia are stimulated by someone''s feet. Manga
+        with this tag will include these scenes.<br \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Footjob\">Wikipedia<\/a><\/i>"},{"tag_name":"Bara","tag_url":"http:\/\/www.fakku.net\/tags\/bara","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/bara.jpg","tag_description":"Bara
+        (\u8594\u8587), also known as \"Men''s Love\" (commonly abbreviated as \"ML\"),
+        is a Japanese term for a genre of art and media that focuses on male same-sex
+        love, usually created by gay men for a gay audience.\n<br \/><br \/><i>Source:
+        <a href=\"http:\/\/en.wikipedia.org\/wiki\/Bara_(genre)\">Wikipedia<\/a><\/i>"},{"tag_name":"Cheating","tag_url":"http:\/\/www.fakku.net\/tags\/cheating","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/cheating.jpg","tag_description":"The
+        cheating tag is used for content where one of the characters has a relationship
+        with someone other than their spouse. Usually we are not introduced to the
+        spouse, or they have a very small part in the story. This tag was introduced
+        as a more mild form of <a href=\"\/tags\/netorare\">netorare<\/a>."},{"tag_name":"Chikan","tag_url":"http:\/\/www.fakku.net\/tags\/chikan","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/chikan.png","tag_description":"Chikan
+        is the Japanese word for public molestation. Usually used in reference to
+        furtive groping and sexual assaults that have become frequent on crowded public
+        trains."},{"tag_name":"Color","tag_url":"http:\/\/www.fakku.net\/tags\/color","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/color.jpg","tag_description":"The
+        color tag refers to manga and doujinshi that are <u>entirely<\/u> in color.
+        Usually full color releases are much more elaborate and more detailed than
+        regular releases and as a result they are much shorter."},{"tag_name":"Dark
+        Skin","tag_url":"http:\/\/www.fakku.net\/tags\/darkskin","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/dark-skin.jpg","tag_description":"The
+        \"dark skin\" tag is used for hentai manga and doujinshi that focus on or
+        contain females with dark\/tan skin."},{"tag_name":"Ecchi","tag_url":"http:\/\/www.fakku.net\/tags\/ecchi","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/ecchi.png","tag_description":"Ecchi  describes
+        a genre of manga and anime which is seen as a softer variant of hentai. For
+        the most part it does not show sexual intercourse, but can show: panty shots,
+        nudity, and perverted situations. Most of the time we use this tag for anything
+        that does not contain any hentai.<br \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Ecchi\"
+        rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Femdom","tag_url":"http:\/\/www.fakku.net\/tags\/femdom","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/femdom.jpg","tag_description":"Femdom,
+        the shortened term for female dominance, irefers to relationships or sexual
+        scenes where the dominant partner is female. This is frequently associated
+        with BDSM or S&amp;M, a type of roleplay between two or more individuals derived
+        from the terms bondage and discipline. Manga with this tag will contain females
+        character that are assertive and dominant over the other partner.<br \/><br
+        \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Femdom\" rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Forced","tag_url":"http:\/\/www.fakku.net\/tags\/forced","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/rape.jpg","tag_description":"\"Forced\"
+        is a more elegant way of saying rape. Manga with this tag will contain heavy
+        elements of rape. This includes forced sexual intercourse (mainly by men on
+        women) using either physical strength, threat, or surprise. This theme is
+        very common and accepted in Japan."},{"tag_name":"Futanari","tag_url":"http:\/\/www.fakku.net\/tags\/futanari","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/futanari.jpg","tag_description":"Futanari
+        (\u4e8c\u6210, \u4e8c\u5f62; \u3075\u305f\u306a\u308a) is a genre of Japanese
+        anime and manga featuring hermaphrodite women; women with male genitalia.
+        Due to the way it is executed, futanari is most closely related to the yuri
+        genre, both generally feature women as the main characters.<br \/><br \/><i>Source:
+        <a href=\"http:\/\/en.wikipedia.org\/wiki\/Futanari\" rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Group","tag_url":"http:\/\/www.fakku.net\/tags\/group","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/group.jpg","tag_description":"The
+        group tag is used for manga that include threesomes and beyond. Most often
+        this will include multiple male partners on a single female, but it also includes
+        group situations where multiple couples are performing at the same time and
+        in the same vicinity."},{"tag_name":"Harem","tag_url":"http:\/\/www.fakku.net\/tags\/harem","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/harem.jpg","tag_description":"Harem
+        is a subgenre of anime and manga characterized by a protagonist surrounded
+        by three or more members of the opposite sex. The most common scenario is
+        a male surrounded by a group of females; when this is reversed it is referred
+        to as a reverse harem. Manga with this tag usually have multiple female partners
+        and one male, with each female personifying a popular character type.<br \/><br
+        \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Harem_%28genre%29\"
+        rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Hentai","tag_url":"http:\/\/www.fakku.net\/tags\/hentai","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/hentai.jpg","tag_description":"Hentai
+        (\u5909\u614b or \u3078\u3093\u305f\u3044) is a Japanese word that, in the
+        West, describes sexually explicit or pornographic comics and animation\u2014especially
+        those of Japanese origin, such as anime, manga, and eroge. On FAKKU we use
+        the \"hentai\" tag to differentiate heterosexual content (hentai) from homosexual
+        content (yaoi and yuri).\n\n"},{"tag_name":"Housewife","tag_url":"http:\/\/www.fakku.net\/tags\/housewife","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/housewife.jpg","tag_description":"Housewife
+        is a term used to describe a married female who is not employed outside of
+        the home, instead she manages the household while her husband works. Manga
+        with this tag involve housewives while they are at home. Additionally it is
+        used in place of a MILF tag."},{"tag_name":"Humiliation","tag_url":"http:\/\/www.fakku.net\/tags\/humiliation","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/humiliation.jpg","tag_description":"Manga
+        and doujinshi with the humiliation tag will contain scenes where a character
+        is put in a state of disgrace or loss of self-respect. This will most often
+        be forced upon them unwillingly and be in some type of public setting."},{"tag_name":"Incest","tag_url":"http:\/\/www.fakku.net\/tags\/incest","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/incest.png","tag_description":"Incest,
+        more commonly referred to as wincest, is the taboo involving sexual intercourse
+        between close relatives. The idea of forbidden love is the main appeal behind
+        incest. Though many people enjoy these stories, it is often much less appealing
+        in real life. <br \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Incest\"
+        rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Irrumatio","tag_url":"http:\/\/www.fakku.net\/tags\/irrumatio","tag_description":"A
+        step up from a standard blowjob, the term Irrumatio is used to describe the
+        act of (often roughly) \"fucking someone''s face\". Generally involves deepthroating."},{"tag_name":"Kemonomimi","tag_url":"http:\/\/www.fakku.net\/tags\/kemonomimi","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/kemonomimi.png","tag_description":"Kemonomimi
+        refers to characters with animal characteristics, such as cat ears, cat tails,
+        etc. Generally these characters appear mostly human despite their animal characteristics."},{"tag_name":"Maid","tag_url":"http:\/\/www.fakku.net\/tags\/maid","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/maid.jpg","tag_description":"Maid
+        outfits are extremely popular in Japan and are frequently worn in anime and
+        manga. The most common style of Japanese maid outfit consists of a traditional
+        French maid costume with an apron. Generally, Japanese maid costumes are usually
+        one-piece above the knee and black\/navy blue colored. Typically they include
+        a short apron with frill and the skirt area of the dress is usually pleated.
+        If knickers or petticoats are worn with it, they are usually ruffled (and
+        the dress is sometimes short enough to display them)."},{"tag_name":"Megane","tag_url":"http:\/\/www.fakku.net\/tags\/megane","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/megane.png","tag_description":"Megane
+        is the Japanese term for glasses. Hentai with this tag will contain characters
+        that wear glasses."},{"tag_name":"Mizugi","tag_url":"http:\/\/www.fakku.net\/tags\/mizugi","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/mizugi.png","tag_description":"Mizugi
+        is the Japanese term for a woman''s swimsuit or bathing suit. This tag can
+        be used to refer specifically to school swimsuits, which are generally one-piece
+        and blue in color."},{"tag_name":"Monster Girl","tag_url":"http:\/\/www.fakku.net\/tags\/monstergirl","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/monstergirl.jpg","tag_description":"Monster
+        girls are \"exotic\" beings (monsters, demons, aliens, etc) that are either
+        part human or bear a strong resemblance to a human female. Manga with this
+        tag most often include strong female monster that capture a human male. For
+        more fun check out <a href=\"http:\/\/www.fakku.net\/viewgame.php?id=35\"
+        rel=\"nofollow\">Monmusu Quest<\/a>, a visual novel involving monster girls."},{"tag_name":"Netorare","tag_url":"http:\/\/www.fakku.net\/tags\/netorare","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/netorare.jpg","tag_description":"Netorare
+        (\u5bdd\u53d6\u3089\u308c), also referred to as NTR or cuckold, is a genre
+        where the intent is to cause an emotion of deep jealousy or distress in the
+        reader. A direct translation of the word results in the definition \"having
+        your lover taken from you\" or \"to have something taken from you while you
+        sleep\". This is often accomplished by having main protagonist''s loved one
+        seduced away from them, with or without their knowledge."},{"tag_name":"Non-H","tag_url":"http:\/\/www.fakku.net\/tags\/non-h","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/non-h.png","tag_description":"This
+        tag is used for content that has sexually suggestive scenes, but does not
+        have any hentai or actual sex."},{"tag_name":"Nurse","tag_url":"http:\/\/www.fakku.net\/tags\/nurse","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/nurse.jpg","tag_description":"This
+        tag is used for manga and doujinshi that contain female characters that are
+        wearing nurse outfits, though they do not necessarily need to be actual nurses.
+        Most of these stories will take place inside of a hospital."},{"tag_name":"Oppai","tag_url":"http:\/\/www.fakku.net\/tags\/oppai","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/oppai.png","tag_description":"Oppai
+        (\u304a\u3063\u3071\u3044) is the Japanese slang word for breasts, generally
+        used to refer to the larger variety. Naturally large breasts are somewhat
+        rare in Japan, but in hentai they are quite frequent.<br \/><br \/>Hentai
+        manga and doujinshi with the tag ''oppai'' will involve characters with large
+        breasts, but not excessively large."},{"tag_name":"Oral","tag_url":"http:\/\/www.fakku.net\/tags\/oral","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/oral.png","tag_description":"Oral
+        sex, known as fellatio when performed on a man and cunnilingus when performed
+        on a female, is a sexual activity involving the stimulation of the genitalia
+        by the use of the mouth. People may engage in oral sex as part of foreplay
+        before or following sexual intercourse. It may also be performed for its own
+        sake. Manga and doujinshi with this tag will contain a substantial amount
+        of oral sex. <br \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Oral_sex\"
+        rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Osananajimi","tag_url":"http:\/\/www.fakku.net\/tags\/osananajimi","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/osananajimi.png","tag_description":"Osananajimi
+        (\u5e7c\u99b4\u67d3) is a commonly-used term to represent a childhood friend
+        of the main character. Usually the friend is in love with the main character
+        but has never had the courage to tell them."},{"tag_name":"Paizuri","tag_url":"http:\/\/www.fakku.net\/tags\/paizuri","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/paizuri.jpg","tag_description":"Paizuri
+        (\u30d1\u30a4\u30ba\u30ea), also known as titty-fucking or a titfuck in the
+        United States, involves the stimulation of the male penis by the female breasts.
+        Commonly, this sex act involves the man placing his penis in the woman''s
+        cleavage and thrusting between the breasts while they are squeezed together
+        for stimulation. Frequently combined with oral sex."},{"tag_name":"Pettanko","tag_url":"http:\/\/www.fakku.net\/tags\/pettanko","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/pettanko.jpg","tag_description":"Pattanko
+        (\u307a\u3063\u305f\u3093\u3053) is the Japanese term for a flat-chested female
+        character that is not under age. Manga with this tag will include characters
+        that are obsessive and\/or insecure about this fact."},{"tag_name":"Random","tag_url":"http:\/\/www.fakku.net\/tags\/random","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/random.jpg","tag_description":"The
+        random tag is used for manga and doujinshi that are out of the ordinary. Sometimes
+        that means they are funny, sometimes that means they are gross, and sometimes
+        that means they are just plain weird. So be careful browsing the random section,
+        you never know what you''ll get."},{"tag_name":"Schoolgirl","tag_url":"http:\/\/www.fakku.net\/tags\/schoolgirl","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/schoolgirl.jpg","tag_description":"Manga
+        with the schoolgirl tag will include characters that are either in primary
+        or secondary school. Most of the time the story will take place at school
+        or the characters will be wearing their school uniforms. The sailor outfit
+        (\u30bb\u30fc\u30e9\u30fc\u670d) is the most common style of uniform worn
+        by female students in Japan, and the majority of manga with this tag will
+        feature it."},{"tag_name":"Shibari","tag_url":"http:\/\/www.fakku.net\/tags\/shibari","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/shibari.jpg","tag_description":"Shibari
+        (\u7e1b\u308a) is a word used by westerners to describe the bondage art Kinbaku
+        (\u7dca\u7e1b). Shibari literally means \"to tie\" or \"to bind\". It is used
+        to describe the Japanese style of sexual bondage or BDSM which involves tying
+        up a partner using simple yet visually intricate patterns, usually with several
+        pieces of thin rope.<br \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Shibari\"
+        rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Shimapan","tag_url":"http:\/\/www.fakku.net\/tags\/shimapan","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/shimapan.jpg","tag_description":"Shimapan
+        is an abbreviation of shima-pantsu (striped panties) and have become quite
+        popular due to their frequent use in anime and manga. The most popular variety
+        come in the colors blue and white."},{"tag_name":"Stockings","tag_url":"http:\/\/www.fakku.net\/tags\/stockings","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/thighhighs.jpg","tag_description":"Stockings,
+        also referred to as thigh highs or kneesocks, are a close-fitting, elastic
+        garment covering the foot and lower part of the leg. Stockings vary in color,
+        design and transparency. All women should wear stockings, because they are
+        awesome.<br \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Stocking\"
+        rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Tanlines","tag_url":"http:\/\/www.fakku.net\/tags\/tanlines","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/tan.jpg","tag_description":"Tan
+        lines refers to a division between areas on the skin of pronounced paleness
+        relative to other areas of skin that have been suntanned and are noticeable
+        darker. This tag also includes ganguro fashion, where girls have a deep tan
+        combined with hair dyed blonde."},{"tag_name":"Teacher","tag_url":"http:\/\/www.fakku.net\/tags\/teacher","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/teacher.jpg","tag_description":"The
+        teacher tag is used for manga that contain teachers who are most often in
+        dominant positions over their students. The Japanese word for teacher is sensei
+        (\u5148\u751f) and it is commonly used as the translation to describe them
+        in anime and manga."},{"tag_name":"Tentacles","tag_url":"http:\/\/www.fakku.net\/tags\/tentacles","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/tentacles.jpg","tag_description":"Tentacles
+        are a genre of hentai where various tentacled creatures (usually  monsters)
+        rape or otherwise penetrate women. It is a very uncommon theme, yet it has
+        come to define the genre by most people who are unfamiliar with hentai.<br
+        \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Tentacle_rape\"
+        rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Tomboy","tag_url":"http:\/\/www.fakku.net\/tags\/tomboy","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/tomboy.jpg","tag_description":"A
+        tomboy is a girl who exhibits characteristics or behaviors considered typical
+        of the gender role of a boy, including the wearing of typically masculine-oriented
+        clothes and engaging in games and activities that are often physical in nature,
+        and which are considered in many cultures to be the domain of boys. Occasionally,
+        such girls are called tomgirls. <br \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Tomboy\"
+        rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Toys","tag_url":"http:\/\/www.fakku.net\/tags\/toys","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/toys.jpg","tag_description":"A
+        sex toy is an object or device that is primarily used to facilitate human
+        sexual pleasure. The most popular sex toys are designed to resemble human
+        genitals and may be vibrating or non-vibrating. Manga with this tag will include
+        the use of sex toys, both willingly or unwillingly.<br \/><br \/><i>Source:
+        <a href=\"http:\/\/en.wikipedia.org\/wiki\/Sex_toy\" rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Trap","tag_url":"http:\/\/www.fakku.net\/tags\/trap","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/trap.jpg","tag_description":"A
+        trap refers to a male character that is dressed up as a female; this often
+        leads to yaoi. In most cases the male character has very feminine characteristics
+        and could be confused for a female."},{"tag_name":"Tsundere","tag_url":"http:\/\/www.fakku.net\/tags\/tsundere","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/tsundere.png","tag_description":"Tsundere
+        (\u30c4\u30f3\u30c7\u30ec) is a Japanese character development process which
+        describes a person who is initially cold and even hostile towards another
+        person before gradually showing their warm side over time. The word is derived
+        from the terms tsun tsun (\u30c4\u30f3\u30c4\u30f3), meaning to turn away
+        in disgust, and dere dere (\u30c7\u30ec\u30c7\u30ec) meaning to show affection.<br
+        \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Tsundere\">Wikipedia<\/a><\/i>"},{"tag_name":"Uncensored","tag_url":"http:\/\/www.fakku.net\/tags\/uncensored","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/uncensored.png","tag_description":"All
+        hentai produced in Japan is censored by law. The law discourages showing genitals
+        in hentai and all other forms of pornography. This is why most hentai will
+        make use of black bars, mosaics, or a blur effect to hide genitalia. That
+        said, you will find hentai with this tag completely uncensored. This is accomplished
+        by having artists go in afterward, remove the censorship, and redraw the missing
+        parts."},{"tag_name":"Vanilla","tag_url":"http:\/\/www.fakku.net\/tags\/vanilla","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/vanilla.jpg","tag_description":"The
+        vanilla tag refers to manga and doujinshi that do not contain anything out
+        of the ordinary or unusual. The majority of stories will be cute and romantic,
+        involving only one boy and one girl falling in love."},{"tag_name":"Yandere","tag_url":"http:\/\/www.fakku.net\/tags\/yandere","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/yandere.png","tag_description":"Yandere
+        is a Japanese term for a person who is initially very loving and gentle before
+        their devotion becomes destructive in nature, often through violence. The
+        term is derived from the words yan (\u30e4\u30f3) meaning a mental or emotional
+        illness and dere dere (\u30c7\u30ec\u30c7\u30ec) meaning to show affection.
+        Yandere characters are mentally unstable, often using extreme violence as
+        an outlet for their emotions.<br \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Yandere#Y\"
+        rel=\"nofollow\">Wikipedia<\/a><\/i>"},{"tag_name":"Yaoi","tag_url":"http:\/\/www.fakku.net\/tags\/yaoi","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/yaoi.jpg","tag_description":"Yaoi
+        (\u3084\u304a\u3044) also known as Boys'' Love (commonly abbreviated as \"BL\"),
+        is a popular Japanese term for female-oriented fiction that focus on homoerotic
+        or homoromantic male relationships, usually created by female authors. The
+        two participants in a yaoi relationship are often referred to as seme (the
+        top) and uke (the bottom).<br \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Yaoi\"
+        rel=\"nofollow\">Wikipedia<\/a><\/i><br \/><br \/>"},{"tag_name":"Yuri","tag_url":"http:\/\/www.fakku.net\/tags\/yuri","tag_image_sample":"http:\/\/www.fakku.net\/images\/tags\/yuri.jpg","tag_description":"Yuri
+        (\u767e\u5408) is a genre involving love between women in manga and anime.
+        Yuri can focus either on the sexual, the spiritual, or the emotional aspects
+        of the relationship, the latter two sometimes being called sh\u014djo-ai.
+        Manga with the yuri tag will contain relationships exclusively between women.<br
+        \/><br \/><i>Source: <a href=\"http:\/\/en.wikipedia.org\/wiki\/Yuri_%28genre%29\"
+        rel=\"nofollow\">Wikipedia<\/a><\/i>"}],"total":49}'
+    http_version: 
+  recorded_at: Fri, 08 Aug 2014 05:21:37 GMT
+recorded_with: VCR 2.9.2
