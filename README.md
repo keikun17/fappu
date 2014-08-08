@@ -7,38 +7,36 @@ Fakku's API docs can be found at [https://developers.fakku.net/documentation](ht
 ## Usage
 
 
-### Manga
+### Search
+
+Search for mangas tagged by a specific `tagname`
+
+    Fappu::Search.tagged(tag)             #ex. Fappu::Search.tagged('Netorare')
+
+Search for Mangas by keywords
+
+    Fappu::Search.terms(search_terms)     #ex. Fappu::Search.terms('Sword art online')
 
 To get the latest manga
 
-    Fappu::Manga.latest
+    Fappu::Search.latest
 
 To get a list of the most favorited manga
 
-    Fappu::Manga.favorites
+    Fappu::Search.favorites
 
 To get a list of the most popular/read manga
 
-    Fappu::Manga.popular
+    Fappu::Search.popular
 
 And to get the list of the most popular manga
 
     Fappu::manga.controversial
 
-To get a list of mangas from a given tag (WIP)
 
-    Fappu::Manga.tagged('tag-name')
+### Manga
 
-To get details from a specific manga (WIP)
-
-    Fappu::Manga.find(title: 'manga-title')
-
-To search for Manga titles falling under a given term (WIP)
-
-    Fappu::Manga.search('search term')
-
-
-Manga instances respond to the following
+Aside from their attributes, Manga instances respond to the following
 
  - top_comments
  - comments(page: page) # WIP
@@ -46,14 +44,13 @@ Manga instances respond to the following
  - read # WIP
  - related # WIP
 
-## Search
+### Tags
 
 To get a list of available tags
 
-    Fappu::Search.tagged(tag)             #ex. Fappu::Search.tagged('Netorare')
-    Fappu::Search.terms(search_terms)     #ex. Fappu::Search.terms('Sword art online')
+    Fappu::Tag.list
 
-## Contributing
+### Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/fappu/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
