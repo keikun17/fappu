@@ -1,5 +1,7 @@
 module Fappu
-  class Search
+  module Search
+
+    module_function
 
     def self.tagged(tag)
       tag.downcase!
