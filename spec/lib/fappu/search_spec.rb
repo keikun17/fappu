@@ -36,8 +36,6 @@ describe Fappu::Search do
       end
 
       it "returns an array of SAO mangas" do
-        a = subject
-        binding.pry
         expect(subject.map(&:title)).to include(
           "Sword Art Unlimited",
           "Sword Art Offline -Silica Route-",
