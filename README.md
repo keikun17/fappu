@@ -46,11 +46,12 @@ Manga instances respond to the following
  - read # WIP
  - related # WIP
 
-## Tags
+## Search
 
 To get a list of available tags
 
-    Fappu::Tag.list
+    Fappu::Search.tagged(tag)             #ex Fappu::Search.tagged('Netorare')
+    Fappu::Search.terms(search_terms)     #ex. Fappu::Search.terms('Sword art online')
 
 ## Contributing
 
