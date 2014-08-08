@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.fakku.net/tags/netorare
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 08 Aug 2014 07:54:21 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d43f57e548169e0d0df97cf6a8a5303cf1407484461202; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.fakku.net; HttpOnly
+      Access-Control-Allow-Origin:
+      - '*'
+      X-Varnish:
+      - 848904118 848895557
+      Age:
+      - '47'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - HIT
+      Dicks:
+      - PH
+      Cf-Ray:
+      - 156a253a87060bc3-HKG
+    body:
+      encoding: UTF-8
+      string: '{"content":[{"content_name":"Shujou Seikou II \u03b2","content_url":"http:\/\/www.fakku.net\/doujinshi\/shujou-seikou-ii-bbb-english","content_description":"<a
+        href=\"http:\/\/www.amy.gs\/meqw\">Want something translated? Ragged Translations!<\/a>
+        | This is perfectly rational behaviour. <a href=\"http:\/\/www.fapoff.com\/1lJe\">DDL<\/a>","content_language":"english","content_category":"doujinshi","content_date":1407439696,"content_filesize":41115500,"content_favorites":0,"content_comments":0,"content_pages":42,"content_poster":"_ragdoll","content_poster_url":"http:\/\/www.fakku.net\/users\/-ragdoll","content_tags":[{"attribute":"Netorare","attribute_link":"\/tags\/netorare"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Shibari","attribute_link":"\/tags\/shibari"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Harem","attribute_link":"\/tags\/harem"},{"attribute":"Group","attribute_link":"\/tags\/group"},{"attribute":"Forced","attribute_link":"\/tags\/forced"},{"attribute":"Humiliation","attribute_link":"\/tags\/humiliation"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"},{"attribute":"Ahegao","attribute_link":"\/tags\/ahegao"}],"content_translators":[{"attribute":"_ragdoll","attribute_link":"\/translators\/-ragdoll"}],"content_series":[{"attribute":"Sword
+        Art Online","attribute_link":"\/series\/sword-art-online"}],"content_artists":[{"attribute":"Yuriru
+        Rarika","attribute_link":"\/artists\/yuriru-rarika"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/s\/[Yuriru_Rarika]_Sword_Art_Online_-_Shujou_Seikou_II_\u03b2\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/s\/[Yuriru_Rarika]_Sword_Art_Online_-_Shujou_Seikou_II_\u03b2\/thumbs\/013.thumb.jpg"}},{"content_name":"Yuru
+        Bitch","content_url":"http:\/\/www.fakku.net\/manga\/yuru-bitch-english","content_description":"You''ve
+        changed in so many ways...","content_language":"english","content_category":"manga","content_date":1406861124,"content_filesize":18612100,"content_favorites":545,"content_comments":33,"content_pages":24,"content_poster":"CGrascal","content_poster_url":"http:\/\/www.fakku.net\/users\/cgrascal","content_tags":[{"attribute":"Netorare","attribute_link":"\/tags\/netorare"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Megane","attribute_link":"\/tags\/megane"},{"attribute":"Maid","attribute_link":"\/tags\/maid"},{"attribute":"Schoolgirl","attribute_link":"\/tags\/schoolgirl"}],"content_translators":[{"attribute":"CGRascal","attribute_link":"\/translators\/cgrascal"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Tanabe
+        Kyou","attribute_link":"\/artists\/tanabe-kyou"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/y\/[Tanabe_Kyou]_Original_Work_-_Yuru_Bitch\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/y\/[Tanabe_Kyou]_Original_Work_-_Yuru_Bitch\/thumbs\/012.thumb.jpg"}},{"content_name":"Maso
+        Mess Ch14","content_url":"http:\/\/www.fakku.net\/manga\/maso-mess-ch14-english","content_description":"<a
+        href=\"http:\/\/www.amy.gs\/meqw\">Want something translated? Ragged Translations!<\/a>
+        | Er... <a href=\"http:\/\/www.fapoff.com\/xaKN\">DDL<\/a>","content_language":"english","content_category":"manga","content_date":1406383961,"content_filesize":9749670,"content_favorites":121,"content_comments":34,"content_pages":17,"content_poster":"_ragdoll","content_poster_url":"http:\/\/www.fakku.net\/users\/-ragdoll","content_tags":[{"attribute":"Netorare","attribute_link":"\/tags\/netorare"},{"attribute":"Group","attribute_link":"\/tags\/group"},{"attribute":"Pettanko","attribute_link":"\/tags\/pettanko"},{"attribute":"Cheating","attribute_link":"\/tags\/cheating"},{"attribute":"Humiliation","attribute_link":"\/tags\/humiliation"},{"attribute":"Tomboy","attribute_link":"\/tags\/tomboy"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"},{"attribute":"Osananajimi","attribute_link":"\/tags\/osananajimi"}],"content_translators":[{"attribute":"_ragdoll","attribute_link":"\/translators\/-ragdoll"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Sanbun
+        Kyoden","attribute_link":"\/artists\/sanbun-kyoden"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch14\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch14\/thumbs\/014.thumb.jpg"}},{"content_name":"Kage
+        no Wazurai","content_url":"http:\/\/www.fakku.net\/doujinshi\/kage-no-wazurai-english","content_description":"Naoto
+        knows that Yuu is going to be leaving. And a part of her doesn''t like that.","content_language":"english","content_category":"doujinshi","content_date":1405187261,"content_filesize":15665100,"content_favorites":215,"content_comments":23,"content_pages":26,"content_poster":"CGrascal","content_poster_url":"http:\/\/www.fakku.net\/users\/cgrascal","content_tags":[{"attribute":"Netorare","attribute_link":"\/tags\/netorare"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Forced","attribute_link":"\/tags\/forced"}],"content_translators":[{"attribute":"CGRascal","attribute_link":"\/translators\/cgrascal"}],"content_series":[{"attribute":"Persona
+        4","attribute_link":"\/series\/persona-4"}],"content_artists":[{"attribute":"Yukinohana","attribute_link":"\/artists\/yukinohana"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/k\/[Yukinohana]_Persona_4_-_Kage_no_Wazurai\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/k\/[Yukinohana]_Persona_4_-_Kage_no_Wazurai\/thumbs\/010.thumb.jpg"}},{"content_name":"Maso
+        Mess Ch13","content_url":"http:\/\/www.fakku.net\/manga\/maso-mess-ch13-english","content_description":"<a
+        href=\"http:\/\/www.amy.gs\/meqw\">Want something translated? Ragged Translations!<\/a>
+        | Why didn''t anyone think of that sooner? <a href=\"http:\/\/www.fapoff.com\/reN1\">DDL<\/a>","content_language":"english","content_category":"manga","content_date":1404980446,"content_filesize":12020400,"content_favorites":123,"content_comments":25,"content_pages":17,"content_poster":"_ragdoll","content_poster_url":"http:\/\/www.fakku.net\/users\/-ragdoll","content_tags":[{"attribute":"Netorare","attribute_link":"\/tags\/netorare"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Group","attribute_link":"\/tags\/group"},{"attribute":"Pettanko","attribute_link":"\/tags\/pettanko"},{"attribute":"Forced","attribute_link":"\/tags\/forced"},{"attribute":"Cheating","attribute_link":"\/tags\/cheating"},{"attribute":"Humiliation","attribute_link":"\/tags\/humiliation"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"},{"attribute":"Osananajimi","attribute_link":"\/tags\/osananajimi"},{"attribute":"Ahegao","attribute_link":"\/tags\/ahegao"}],"content_translators":[{"attribute":"_ragdoll","attribute_link":"\/translators\/-ragdoll"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Sanbun
+        Kyoden","attribute_link":"\/artists\/sanbun-kyoden"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch13\/thumbs\/003.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch13\/thumbs\/004.thumb.jpg"}},{"content_name":"Maso
+        Mess Ch12","content_url":"http:\/\/www.fakku.net\/manga\/maso-mess-ch12-english","content_description":"<a
+        href=\"http:\/\/www.amy.gs\/meqw\">Want something translated? Ragged Translations!<\/a>
+        | Wait for it... <a href=\"http:\/\/www.fapoff.com\/qPqK\">DDL<\/a>","content_language":"english","content_category":"manga","content_date":1404639534,"content_filesize":11837300,"content_favorites":137,"content_comments":19,"content_pages":17,"content_poster":"_ragdoll","content_poster_url":"http:\/\/www.fakku.net\/users\/-ragdoll","content_tags":[{"attribute":"Netorare","attribute_link":"\/tags\/netorare"},{"attribute":"Femdom","attribute_link":"\/tags\/femdom"},{"attribute":"Schoolgirl","attribute_link":"\/tags\/schoolgirl"},{"attribute":"Pettanko","attribute_link":"\/tags\/pettanko"},{"attribute":"Forced","attribute_link":"\/tags\/forced"},{"attribute":"Humiliation","attribute_link":"\/tags\/humiliation"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"},{"attribute":"Osananajimi","attribute_link":"\/tags\/osananajimi"}],"content_translators":[{"attribute":"_ragdoll","attribute_link":"\/translators\/-ragdoll"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Sanbun
+        Kyoden","attribute_link":"\/artists\/sanbun-kyoden"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch12\/thumbs\/003.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch12\/thumbs\/011.thumb.jpg"}},{"content_name":"Maso
+        Mess Ch11","content_url":"http:\/\/www.fakku.net\/manga\/maso-mess-ch11-japanese","content_description":"<a
+        href=\"http:\/\/www.amy.gs\/meqw\">Want something translated? Ragged Translations!<\/a>
+        | You can almost pinpoint the exact moment his heart breaks in half <a href=\"http:\/\/www.fapoff.com\/pK92\">DDL<\/a>","content_language":"english","content_category":"manga","content_date":1404321889,"content_filesize":13004900,"content_favorites":165,"content_comments":22,"content_pages":17,"content_poster":"_ragdoll","content_poster_url":"http:\/\/www.fakku.net\/users\/-ragdoll","content_tags":[{"attribute":"Netorare","attribute_link":"\/tags\/netorare"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Group","attribute_link":"\/tags\/group"},{"attribute":"Pettanko","attribute_link":"\/tags\/pettanko"},{"attribute":"Forced","attribute_link":"\/tags\/forced"},{"attribute":"Cheating","attribute_link":"\/tags\/cheating"},{"attribute":"Humiliation","attribute_link":"\/tags\/humiliation"},{"attribute":"Tomboy","attribute_link":"\/tags\/tomboy"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"},{"attribute":"Osananajimi","attribute_link":"\/tags\/osananajimi"}],"content_translators":[{"attribute":"_ragdoll","attribute_link":"\/translators\/-ragdoll"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Sanbun
+        Kyoden","attribute_link":"\/artists\/sanbun-kyoden"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch11\/thumbs\/002.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch11\/thumbs\/010.thumb.jpg"}},{"content_name":"Seventy
+        Two","content_url":"http:\/\/www.fakku.net\/manga\/seventy-two-english","content_description":"I
+        have my husband and his brother to satisfy my physical urges. All I have to
+        do is keep it all under my control and I''ll be fine.","content_language":"english","content_category":"manga","content_date":1404064711,"content_filesize":12695300,"content_favorites":1245,"content_comments":47,"content_pages":20,"content_poster":"CGrascal","content_poster_url":"http:\/\/www.fakku.net\/users\/cgrascal","content_tags":[{"attribute":"Netorare","attribute_link":"\/tags\/netorare"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Housewife","attribute_link":"\/tags\/housewife"},{"attribute":"Cheating","attribute_link":"\/tags\/cheating"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"CGRascal","attribute_link":"\/translators\/cgrascal"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Kiasa","attribute_link":"\/artists\/kiasa"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/s\/[Kiasa]_Original_Work_-_Seventy_Two\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/s\/[Kiasa]_Original_Work_-_Seventy_Two\/thumbs\/010.thumb.jpg"}},{"content_name":"August,
+        She Lies","content_url":"http:\/\/www.fakku.net\/manga\/august-she-lies-english","content_description":"No
+        description has been written.","content_language":"english","content_category":"manga","content_date":1403826970,"content_filesize":139605000,"content_favorites":925,"content_comments":87,"content_pages":219,"content_poster":"Anonymous","content_poster_url":"http:\/\/www.fakku.net\/users\/anonymous","content_tags":[{"attribute":"Netorare","attribute_link":"\/tags\/netorare"},{"attribute":"Paizuri","attribute_link":"\/tags\/paizuri"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Stockings","attribute_link":"\/tags\/stockings"},{"attribute":"Group","attribute_link":"\/tags\/group"},{"attribute":"Toys","attribute_link":"\/tags\/toys"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"SaHa","attribute_link":"\/translators\/saha"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Harusawa","attribute_link":"\/artists\/harusawa"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/a\/[Harusawa]_Original_Work_-_August,_She_Lies\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/a\/[Harusawa]_Original_Work_-_August,_She_Lies\/thumbs\/063.thumb.jpg"}},{"content_name":"Maso
+        Mess Ch10","content_url":"http:\/\/www.fakku.net\/manga\/maso-mess-ch10-english","content_description":"<a
+        href=\"http:\/\/www.amy.gs\/meqw\">Want something translated? Ragged Translations!<\/a>
+        | And it was going so well, too <a href=\"http:\/\/www.fapoff.com\/nYdr\">DDL<\/a>","content_language":"english","content_category":"manga","content_date":1403798407,"content_filesize":13455300,"content_favorites":136,"content_comments":17,"content_pages":17,"content_poster":"_ragdoll","content_poster_url":"http:\/\/www.fakku.net\/users\/-ragdoll","content_tags":[{"attribute":"Netorare","attribute_link":"\/tags\/netorare"},{"attribute":"Group","attribute_link":"\/tags\/group"},{"attribute":"Pettanko","attribute_link":"\/tags\/pettanko"},{"attribute":"Forced","attribute_link":"\/tags\/forced"},{"attribute":"Cheating","attribute_link":"\/tags\/cheating"},{"attribute":"Humiliation","attribute_link":"\/tags\/humiliation"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"},{"attribute":"Osananajimi","attribute_link":"\/tags\/osananajimi"}],"content_translators":[{"attribute":"_ragdoll","attribute_link":"\/translators\/-ragdoll"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Sanbun
+        Kyoden","attribute_link":"\/artists\/sanbun-kyoden"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch10\/thumbs\/002.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch10\/thumbs\/015.thumb.jpg"}}],"total":340,"page":1,"pages":34}'
+    http_version: 
+  recorded_at: Fri, 08 Aug 2014 07:54:16 GMT
+recorded_with: VCR 2.9.2

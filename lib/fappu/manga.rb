@@ -18,7 +18,6 @@ module Fappu
       set_tags(tags) if tags
     end
 
-
     # Returns an array of the latest mangas as Manga instances
     def self.latest
       response = JSON.parse( URI.parse(URL).read )
