@@ -50,7 +50,7 @@ Manga instances respond to the following
 
 To get a list of available tags
 
-    Fappu::Search.tagged(tag)             #ex Fappu::Search.tagged('Netorare')
+    Fappu::Search.tagged(tag)             #ex. Fappu::Search.tagged('Netorare')
     Fappu::Search.terms(search_terms)     #ex. Fappu::Search.terms('Sword art online')
 
 ## Contributing
