@@ -2,6 +2,7 @@ module Fappu
   module Search
 
     module_function
+    URL = "https://api.fakku.net/manga"
 
     def self.tagged(tag)
       tag.downcase!
@@ -26,7 +27,45 @@ module Fappu
       end
     end
 
+    # Returns an array of the latest mangas as Manga instances
+    def self.latest
+      response = JSON.parse( URI.parse("https://api.fakku.net/manga").read )
+      arr = response["latest"]
 
+      arr.collect do |manga|
+        Fappu::Manga.new(manga_parameters(manga))
+      end
+    end
+
+    # Returns an array of the most favorite'd mangas as Manga instances
+    def self.favorites
+      response = JSON.parse( URI.parse("https://api.fakku.net/manga").read )
+      arr = response["favorites"]
+
+      arr.collect do |manga|
+        Fappu::Manga.new(manga_parameters(manga))
+      end
+    end
+
+    # Returns an array of the most popular mangas as Manga instances
+    def self.popular
+      response = JSON.parse( URI.parse("https://api.fakku.net/manga").read )
+      arr = response["popular"]
+
+      arr.collect do |manga|
+        Fappu::Manga.new(manga_parameters(manga))
+      end
+    end
+
+    # Returns an array of the most controversial mangas as Manga instances
+    def self.controversial
+      response = JSON.parse( URI.parse("https://api.fakku.net/manga").read )
+      arr = response["controversial"]
+
+      arr.collect do |manga|
+        Fappu::Manga.new(manga_parameters(manga))
+      end
+    end
     private
 
     # Removes the 'content' suffix for manga attributes from the json response
