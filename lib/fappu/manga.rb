@@ -9,10 +9,15 @@ module Fappu
 
 
     def initialize args
+      tags = args.delete(:tags)
+
       args.each do |k,v|
         instance_variable_set("@#{k}",v) unless v.nil?
       end
+
+      set_tags(tags) if tags
     end
+
 
     # Returns an array of the latest mangas as Manga instances
     def self.latest
@@ -74,6 +79,12 @@ module Fappu
     end
 
     private
+
+    def set_tags(tags)
+      @tags = tags.collect do |tag|
+        Fappu::Tag.new(name: tag['attribute'], url: tag['attribute_link'])
+      end
+    end
 
     # Removes the 'content' suffix for manga attributes from the json response
     def self.manga_parameters(manga)

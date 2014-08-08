@@ -9,6 +9,17 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
     context "The first manga in the 'latest' list is 'My Mountain Village Journal Chapter 1'" do
       subject { described_class.latest.first }
 
+      it "is tagged" do
+        subject.tags.each do |tag|
+          expect(tag).to be_an_instance_of(Fappu::Tag)
+        end
+
+        expect(subject.tags.collect(&:name)).to include('Paizuri', 'Oral',
+                                                        'Oppai', 'Hentai',
+                                                        'Ahegao'
+                                                       )
+      end
+
       it "Assigns the correct values to the object" do
         is_expected.to have_attributes(
           title: "My Mountain Village Journal Chapter 1",
@@ -38,14 +49,7 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
               "cover" => "https://t.fakku.net/images/manga/m/[Hiroyuki_Kai,_kai_hiroyuki]_Original_Work_-_My_Mountain_Village_Journal_Chapter_1_1407126682/thumbs/001.thumb.jpg",
               "sample" => "https://t.fakku.net/images/manga/m/[Hiroyuki_Kai,_kai_hiroyuki]_Original_Work_-_My_Mountain_Village_Journal_Chapter_1_1407126682/thumbs/002.thumb.jpg"
             }
-          ),
-          tags: include(
-                        {"attribute" => "Paizuri", "attribute_link"  =>'/tags/paizuri'},
-                        {"attribute" => "Oral", "attribute_link" => "/tags/oral"},
-                        {"attribute" => "Oppai", "attribute_link" => "/tags/oppai"},
-                        {"attribute" => "Hentai", "attribute_link" => "/tags/hentai"},
-                        {"attribute" => "Ahegao", "attribute_link" => "/tags/ahegao"}
-                       )
+          )
         )
       end
     end
