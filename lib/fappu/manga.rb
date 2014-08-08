@@ -68,6 +68,7 @@ module Fappu
     end
 
 
+    # WIP : Wait for API to be fixed
     def comments(page = 1)
       response = JSON.parse( URI.parse(comment_api_url + "/page/#{page}").read )
       arr = response['comments']

@@ -1,0 +1,98 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.fakku.net/search/sword%20art%20online
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 08 Aug 2014 08:09:31 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d02b901001e0a18cf575737bbb61131c41407485371417; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.fakku.net; HttpOnly
+      Access-Control-Allow-Origin:
+      - '*'
+      X-Varnish:
+      - '849060859'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      Dicks:
+      - PH
+      Cf-Ray:
+      - 156a3b7352ac0bb1-HKG
+    body:
+      encoding: UTF-8
+      string: '{"content":[{"content_name":"Sword Art Unlimited","content_url":"http:\/\/www.fakku.net\/doujinshi\/sword-art-unlimited-english","content_description":"CONTAINS
+        MILD SWORD ART ONLINE SPOILERS.\r\n\r\nVisit us at http:\/\/ufw.arinashi.com\/
+        for downloads and more releases.","content_language":"english","content_category":"doujinshi","content_date":1344990979,"content_filesize":59,"content_favorites":3521,"content_comments":130,"content_pages":32,"content_poster":"Raze","content_poster_url":"http:\/\/www.fakku.net\/users\/raze","content_tags":[{"attribute":"Color","attribute_link":"\/tags\/color"},{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"UFW","attribute_link":"\/translators\/ufw"}],"content_series":[{"attribute":"Sword
+        Art Online","attribute_link":"\/series\/sword-art-online"}],"content_artists":[{"attribute":"ASTRO
+        CREEP","attribute_link":"\/artists\/astro-creep"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/s\/swordartunlimited_e\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/s\/swordartunlimited_e\/thumbs\/015.thumb.jpg"}},{"content_name":"Sword
+        Art Offline -Silica Route-","content_url":"http:\/\/www.fakku.net\/doujinshi\/sword-art-offline-silica-route-english","content_description":"No
+        description has been written.","content_language":"english","content_category":"doujinshi","content_date":1347254938,"content_filesize":23,"content_favorites":1332,"content_comments":66,"content_pages":18,"content_poster":"Anonymous","content_poster_url":"http:\/\/www.fakku.net\/users\/anonymous","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Stockings","attribute_link":"\/tags\/stockings"},{"attribute":"Pettanko","attribute_link":"\/tags\/pettanko"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"Team
+        Vanilla","attribute_link":"\/translators\/team-vanilla"}],"content_series":[{"attribute":"Sword
+        Art Online","attribute_link":"\/series\/sword-art-online"}],"content_artists":[{"attribute":"Ahiru
+        Okano","attribute_link":"\/artists\/ahiru-okano"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/s\/swordartofflinesilicaroute_e\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/s\/swordartofflinesilicaroute_e\/thumbs\/004.thumb.jpg"}},{"content_name":"Sword
+        Art Extra","content_url":"http:\/\/www.fakku.net\/doujinshi\/sword-art-extra-english","content_description":"Brought
+        to you by http:\/\/life4kaoru.wordpress.com\/","content_language":"english","content_category":"doujinshi","content_date":1330745989,"content_filesize":21,"content_favorites":3321,"content_comments":89,"content_pages":21,"content_poster":"HououinKyouma","content_poster_url":"http:\/\/www.fakku.net\/users\/hououinkyouma","content_tags":[{"attribute":"Color","attribute_link":"\/tags\/color"},{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Kemonomimi","attribute_link":"\/tags\/kemonomimi"},{"attribute":"Stockings","attribute_link":"\/tags\/stockings"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"Life4Kaoru","attribute_link":"\/translators\/life4kaoru"}],"content_series":[{"attribute":"Sword
+        Art Online","attribute_link":"\/series\/sword-art-online"}],"content_artists":[{"attribute":"ASTRO
+        CREEP","attribute_link":"\/artists\/astro-creep"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/s\/swordartextra_e\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/s\/swordartextra_e\/thumbs\/013.thumb.jpg"}},{"content_name":"SPECIAL
+        ASUNA ONLINE 2","content_url":"http:\/\/www.fakku.net\/doujinshi\/special-asuna-online-2-english","content_description":"No
+        description has been written.","content_language":"english","content_category":"doujinshi","content_date":1395787581,"content_filesize":21936400,"content_favorites":677,"content_comments":19,"content_pages":26,"content_poster":"biribiri","content_poster_url":"http:\/\/www.fakku.net\/users\/biribiri","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"},{"attribute":"Ahegao","attribute_link":"\/tags\/ahegao"}],"content_translators":[{"attribute":"biribiri","attribute_link":"\/translators\/biribiri"}],"content_series":[{"attribute":"Sword
+        Art Online","attribute_link":"\/series\/sword-art-online"}],"content_artists":[{"attribute":"Nama
+        Cream Biyori","attribute_link":"\/artists\/nama-cream-biyori"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/s\/[Nama_Cream_Biyori]_Sword_Art_Online_-_SPECIAL_ASUNA_ONLINE_2\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/s\/[Nama_Cream_Biyori]_Sword_Art_Online_-_SPECIAL_ASUNA_ONLINE_2\/thumbs\/006.thumb.jpg"}},{"content_name":"Sister
+        Affection Online","content_url":"http:\/\/www.fakku.net\/doujinshi\/sister-affection-online-english","content_description":"No
+        description has been written.","content_language":"english","content_category":"doujinshi","content_date":1358737668,"content_filesize":11,"content_favorites":1331,"content_comments":46,"content_pages":19,"content_poster":"Anonymous","content_poster_url":"http:\/\/www.fakku.net\/users\/anonymous","content_tags":[{"attribute":"Paizuri","attribute_link":"\/tags\/paizuri"},{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"Usual
+        Translations","attribute_link":"\/translators\/usual-translations"}],"content_series":[{"attribute":"Sword
+        Art Online","attribute_link":"\/series\/sword-art-online"}],"content_artists":[{"attribute":"Primal
+        Gym","attribute_link":"\/artists\/primal-gym"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/s\/sisteraffectiononline_e\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/s\/sisteraffectiononline_e\/thumbs\/006.thumb.jpg"}},{"content_name":"Lisbeth...
+        Kirito ni wa Suterare, Kyaku ni wa Okasare Nakadashi Ninshin... Asuna to no
+        Kakusa ga Hirogaru Online","content_url":"http:\/\/www.fakku.net\/doujinshi\/lisbeth-kirito-ni-wa-suterare-kyaku-ni-wa-okasare-nakadashi-ninshin-asuna-to-no-kakusa-ga-hirogaru-online-english","content_description":"To
+        survive in the world of business and trade, you need to expand to other outlets
+        if necessary.","content_language":"english","content_category":"doujinshi","content_date":1358570012,"content_filesize":5,"content_favorites":899,"content_comments":37,"content_pages":26,"content_poster":"CGrascal","content_poster_url":"http:\/\/www.fakku.net\/users\/cgrascal","content_tags":[{"attribute":"Paizuri","attribute_link":"\/tags\/paizuri"},{"attribute":"Anal","attribute_link":"\/tags\/anal"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Group","attribute_link":"\/tags\/group"}],"content_translators":[{"attribute":"CGRascal","attribute_link":"\/translators\/cgrascal"}],"content_series":[{"attribute":"Sword
+        Art Online","attribute_link":"\/series\/sword-art-online"}],"content_artists":[{"attribute":"Studio
+        Nunchaku","attribute_link":"\/artists\/studio-nunchaku"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/l\/lisbethkiritoniwasuterarekyakuniwaokasarenakadashininshinasunatonokakusagahirogaruonline_e\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/l\/lisbethkiritoniwasuterarekyakuniwaokasarenakadashininshinasunatonokakusagahirogaruonline_e\/thumbs\/013.thumb.jpg"}},{"content_name":"Asuna
+        to Online","content_url":"http:\/\/www.fakku.net\/doujinshi\/asuna-to-online-english","content_description":"No
+        description has been written.","content_language":"english","content_category":"doujinshi","content_date":1345456629,"content_filesize":17,"content_favorites":1801,"content_comments":50,"content_pages":23,"content_poster":"Anonymous","content_poster_url":"http:\/\/www.fakku.net\/users\/anonymous","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Stockings","attribute_link":"\/tags\/stockings"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"Team
+        Vanilla","attribute_link":"\/translators\/team-vanilla"}],"content_series":[{"attribute":"Sword
+        Art Online","attribute_link":"\/series\/sword-art-online"}],"content_artists":[{"attribute":"Mugenkidou
+        A","attribute_link":"\/artists\/mugenkidou-a"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/a\/asunatoonline_e\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/a\/asunatoonline_e\/thumbs\/014.thumb.jpg"}},{"content_name":"KARORFUL
+        MIX EX10","content_url":"http:\/\/www.fakku.net\/doujinshi\/karorful-mix-ex10-english","content_description":"Final
+        release for the SAO festival. Enjoy!","content_language":"english","content_category":"doujinshi","content_date":1405430220,"content_filesize":60230000,"content_favorites":1288,"content_comments":41,"content_pages":27,"content_poster":"EdMX","content_poster_url":"http:\/\/www.fakku.net\/users\/edmx","content_tags":[{"attribute":"Color","attribute_link":"\/tags\/color"},{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"Genesis
+        Translations","attribute_link":"\/translators\/genesis-translations"}],"content_series":[{"attribute":"Sword
+        Art Online","attribute_link":"\/series\/sword-art-online"}],"content_artists":[{"attribute":"Karomix","attribute_link":"\/artists\/karomix"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/k\/[Karomix]_Sword_Art_Online_-_KARORFUL_MIX_EX10\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/k\/[Karomix]_Sword_Art_Online_-_KARORFUL_MIX_EX10\/thumbs\/010.thumb.jpg"}},{"content_name":"KARORFUL
+        MIX EX9","content_url":"http:\/\/www.fakku.net\/doujinshi\/karorful-mix-ex9","content_description":"No
+        description has been written.","content_language":"english","content_category":"doujinshi","content_date":1404829197,"content_filesize":41698800,"content_favorites":975,"content_comments":33,"content_pages":20,"content_poster":"Tech","content_poster_url":"http:\/\/www.fakku.net\/users\/tech","content_tags":[{"attribute":"Color","attribute_link":"\/tags\/color"},{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"Genesis
+        Translations","attribute_link":"\/translators\/genesis-translations"}],"content_series":[{"attribute":"Sword
+        Art Online","attribute_link":"\/series\/sword-art-online"}],"content_artists":[{"attribute":"Karomix","attribute_link":"\/artists\/karomix"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/k\/[Karomix]_Sword_Art_Online_-_KAROMIX_EX9\/thumbs\/002.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/k\/[Karomix]_Sword_Art_Online_-_KAROMIX_EX9\/thumbs\/014.thumb.jpg"}},{"content_name":"no
+        passage","content_url":"http:\/\/www.fakku.net\/doujinshi\/no-passage-english","content_description":"No
+        description has been written.","content_language":"english","content_category":"doujinshi","content_date":1404401594,"content_filesize":23235100,"content_favorites":1332,"content_comments":38,"content_pages":29,"content_poster":"Tech","content_poster_url":"http:\/\/www.fakku.net\/users\/tech","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Incest","attribute_link":"\/tags\/incest"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"Genesis
+        Translations","attribute_link":"\/translators\/genesis-translations"}],"content_series":[{"attribute":"Sword
+        Art Online","attribute_link":"\/series\/sword-art-online"}],"content_artists":[{"attribute":"Tracklisko","attribute_link":"\/artists\/tracklisko"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/n\/[Tracklisko]_Sword_Art_Online_-_no_passage\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/n\/[Tracklisko]_Sword_Art_Online_-_no_passage\/thumbs\/015.thumb.jpg"}}],"total":60,"page":1,"pages":6}'
+    http_version: 
+  recorded_at: Fri, 08 Aug 2014 08:09:26 GMT
+recorded_with: VCR 2.9.2

@@ -14,6 +14,19 @@ module Fappu
       end
     end
 
+    def self.terms(search_terms)
+      search_terms.downcase!
+      search_terms = URI.encode(search_terms)
+      url = "https://api.fakku.net/search/#{search_terms}"
+      response = JSON.parse( URI.parse(url).read )
+      arr = response["content"]
+
+      arr.collect do |manga|
+        Fappu::Manga.new(manga_parameters(manga))
+      end
+    end
+
+
     private
 
     # Removes the 'content' suffix for manga attributes from the json response

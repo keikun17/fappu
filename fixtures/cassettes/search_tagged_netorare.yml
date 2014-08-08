@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 08 Aug 2014 07:54:21 GMT
+      - Fri, 08 Aug 2014 08:09:30 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,22 +29,22 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d43f57e548169e0d0df97cf6a8a5303cf1407484461202; expires=Mon, 23-Dec-2019
+      - __cfduid=d8f0001315eade2e6b109b739ccb1f6f41407485370039; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fakku.net; HttpOnly
       Access-Control-Allow-Origin:
       - '*'
       X-Varnish:
-      - 848904118 848895557
+      - '849060650'
       Age:
-      - '47'
+      - '0'
       Via:
       - 1.1 varnish
       X-Cache:
-      - HIT
+      - MISS
       Dicks:
       - PH
       Cf-Ray:
-      - 156a253a87060bc3-HKG
+      - 156a3b6abb290bc3-HKG
     body:
       encoding: UTF-8
       string: '{"content":[{"content_name":"Shujou Seikou II \u03b2","content_url":"http:\/\/www.fakku.net\/doujinshi\/shujou-seikou-ii-bbb-english","content_description":"<a
@@ -92,5 +92,5 @@ http_interactions:
         Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Sanbun
         Kyoden","attribute_link":"\/artists\/sanbun-kyoden"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch10\/thumbs\/002.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/m\/[Sanbun_Kyoden]_Original_Work_-_Maso_Mess_Ch10\/thumbs\/015.thumb.jpg"}}],"total":340,"page":1,"pages":34}'
     http_version: 
-  recorded_at: Fri, 08 Aug 2014 07:54:16 GMT
+  recorded_at: Fri, 08 Aug 2014 08:09:24 GMT
 recorded_with: VCR 2.9.2
