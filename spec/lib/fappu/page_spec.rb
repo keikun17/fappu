@@ -13,6 +13,6 @@ describe Fappu::Page do
     )}
 
   end
-  
+
 end
 
