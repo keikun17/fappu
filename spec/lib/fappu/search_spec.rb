@@ -82,7 +82,7 @@ describe Fappu::Search do
           filesize: 18129800,
           favorites: 0,
           comment_count: 0,
-          pages: 21,
+          page_count: 21,
           poster: "LustyLady00",
           poster_url: "http://www.fakku.net/users/lustylady00",
           translators: include(

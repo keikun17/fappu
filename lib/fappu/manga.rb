@@ -2,7 +2,7 @@ module Fappu
   class Manga
 
     attr_accessor :title, :url, :description, :language, :category, :date, :filesize,
-      :favorites, :comment_count, :pages, :poster, :poster_url, :tags, :translators,
+      :favorites, :comment_count, :page_count, :poster, :poster_url, :tags, :translators,
       :series, :artists, :images, :tags
 
 

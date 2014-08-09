@@ -80,7 +80,7 @@ module Fappu
         filesize: manga["content_filesize"],
         favorites: manga["content_favorites"],
         comment_count: manga["content_comments"],
-        pages: manga["content_pages"],
+        page_count: manga["content_pages"],
         poster: manga["content_poster"],
         poster_url: manga["content_poster_url"],
         tags: manga["content_tags"],
