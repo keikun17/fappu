@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.fakku.net/manga/right-now-while-cleaning-the-pool/read
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Sat, 09 Aug 2014 13:48:45 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d44a0f9faa18f3ef6bfa0775eec2e84631407592125548; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.fakku.net; HttpOnly
+      Access-Control-Allow-Origin:
+      - '*'
+      X-Varnish:
+      - '864616011'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      Dicks:
+      - PH
+      Cf-Ray:
+      - 157469c0ace60b44-NRT
+    body:
+      encoding: UTF-8
+      string: '{"content":{"content_name":"Right now, while cleaning the pool","content_url":"http:\/\/www.fakku.net\/manga\/right-now-while-cleaning-the-pool","content_description":"Cleaning
+        the pool sucks...or not?<br>\r\nVisit <a href=\"http:\/\/mumeitl.com\" target=\"_blank\">MumeiTL<\/a>
+        and <a href=\"http:\/\/life4kaoru.wordpress.com\/\" target=\"_blank\">Life4Kaoru<\/a>!<br>\r\nDL-Link:
+        <a href=\"http:\/\/www.sendspace.com\/file\/d5gd5v\">LINK<\/a>","content_language":"english","content_category":"manga","content_date":1379013351,"content_filesize":25921200,"content_favorites":4184,"content_comments":109,"content_pages":25,"content_poster":"mrmuk","content_poster_url":"http:\/\/www.fakku.net\/users\/mrmuk","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Mizugi","attribute_link":"\/tags\/mizugi"},{"attribute":"Schoolgirl","attribute_link":"\/tags\/schoolgirl"},{"attribute":"Dark
+        Skin","attribute_link":"\/tags\/darkskin"},{"attribute":"Tanlines","attribute_link":"\/tags\/tanlines"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"Life4Kaoru","attribute_link":"\/translators\/life4kaoru"},{"attribute":"MumeiTL","attribute_link":"\/translators\/mumeitl"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Yamatogawa","attribute_link":"\/artists\/yamatogawa"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/002.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/018.thumb.jpg"}},"pages":{"1":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/001.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/001.jpg"},"2":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/002.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/002.jpg"},"3":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/003.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/003.jpg"},"4":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/004.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/004.jpg"},"5":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/005.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/005.jpg"},"6":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/006.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/006.jpg"},"7":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/007.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/007.jpg"},"8":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/008.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/008.jpg"},"9":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/009.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/009.jpg"},"10":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/010.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/010.jpg"},"11":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/011.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/011.jpg"},"12":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/012.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/012.jpg"},"13":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/013.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/013.jpg"},"14":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/014.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/014.jpg"},"15":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/015.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/015.jpg"},"16":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/016.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/016.jpg"},"17":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/017.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/017.jpg"},"18":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/018.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/018.jpg"},"19":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/019.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/019.jpg"},"20":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/020.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/020.jpg"},"21":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/021.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/021.jpg"},"22":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/022.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/022.jpg"},"23":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/023.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/023.jpg"},"24":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/024.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/024.jpg"},"25":{"thumb":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/thumbs\/025.thumb.jpg","image":"https:\/\/t.fakku.net\/images\/manga\/r\/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool\/images\/025.jpg"}}}'
+    http_version: 
+  recorded_at: Sat, 09 Aug 2014 13:48:42 GMT
+recorded_with: VCR 2.9.2

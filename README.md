@@ -41,7 +41,7 @@ Aside from their attributes, Manga instances respond to the following
  - top_comments
  - comments(page: page) # WIP
  - download # WIP
- - read # WIP
+ - pages
  - related # WIP
 
 ### Tags

@@ -26,5 +26,19 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
       it "returns comment objects"
 
     end
+
+    describe "#pages", vcr: {cassette_name: 'manga_read_pool_sex'} do
+      subject {manga.pages}
+      it { is_expected.not_to be_empty}
+      it "returns page objects" do
+        expect(subject.first).to be_a_kind_of(Fappu::Page)
+        expect(subject.first).to have_attributes(
+          page_number: '1',
+          image_url: 'https://t.fakku.net/images/manga/r/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool/images/001.jpg',
+          thumbnail_url: 'https://t.fakku.net/images/manga/r/[Yamatogawa]_Original_Work_-_Right_now,_while_cleaning_the_pool/thumbs/001.thumb.jpg'
+        )
+      end
+    end
+
   end
 end

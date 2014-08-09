@@ -27,6 +27,15 @@ module Fappu
     end
 
 
+    def pages
+      response = JSON.parse( URI.parse(read_online_url).read )
+      arr = response['pages']
+
+      arr.collect do |k,v|
+        Fappu::Page.new_from_json({k => v})
+      end
+    end
+
     # WIP : Wait for API to be fixed
     def comments(page = 1)
       response = JSON.parse( URI.parse(comment_api_url + "/page/#{page}").read )
@@ -45,10 +54,17 @@ module Fappu
       end
     end
 
-    def comment_api_url
-      comment_url = URI(url)
+    def read_online_url
+      read_url = base_api_url
+      read_url.path += '/read'
+      read_url.to_s
+    end
 
-      new_host = comment_url.host.split('.')
+
+    def base_api_url
+      base_api_url = URI(url)
+
+      new_host = base_api_url.host.split('.')
       new_host[0] = 'api'
 
       comment_url.host = new_host.join('.')
