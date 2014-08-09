@@ -67,11 +67,14 @@ module Fappu
       new_host = base_api_url.host.split('.')
       new_host[0] = 'api'
 
-      comment_url.host = new_host.join('.')
-      comment_url.scheme = 'https'
+      base_api_url.host = new_host.join('.')
+      base_api_url.scheme = 'https'
+      base_api_url
+    end
 
+    def comment_api_url
+      comment_url = base_api_url
       comment_url.path += "/comments"
-
       comment_url.to_s
     end
 
