@@ -1,6 +1,7 @@
 require 'bundler/setup'
 require 'vcr'
 require 'pry'
+require 'ostruct'
 
 Bundler.setup
 

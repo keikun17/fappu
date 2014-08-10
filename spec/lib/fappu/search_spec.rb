@@ -2,6 +2,22 @@ require 'spec_helper'
 
 describe Fappu::Search do
 
+  describe '.related' do
+    context "Pool sex manga", vcr: {cassette_name: 'related_pool_sex_manga'  }do
+      let(:manga) { OpenStruct.new(url: 'https://api.fakku.net/manga/right-now-while-cleaning-the-pool')}
+      subject { described_class.related(manga) }
+
+      it { is_expected.not_to be_empty }
+
+      it "returns an array of Mangas" do
+        subject.each do |item|
+          expect(item).to be_a_kind_of(Fappu::Manga)
+        end
+      end
+
+    end
+  end
+
   describe '.tagged', vcr: {cassette_name: 'search_tagged_netorare'} do
     context "In the mood for some Netorare" do
       let(:tag) { 'Netorare' }

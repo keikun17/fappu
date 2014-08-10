@@ -66,6 +66,17 @@ module Fappu
         Fappu::Manga.new(manga_parameters(manga))
       end
     end
+
+    # Returns an array of related mangas
+    def self.related(manga)
+      response =JSON.parse ( URI.parse(manga.url + "/related").read )
+      arr = response["related"]
+
+      arr.collect do |m|
+        Fappu::Manga.new(manga_parameters(m))
+      end
+    end
+
     private
 
     # Removes the 'content' suffix for manga attributes from the json response

@@ -1,0 +1,103 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.fakku.net/manga/right-now-while-cleaning-the-pool/related
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Sun, 10 Aug 2014 09:25:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d9903636c3c6b4ee5eea5e9a0d46877401407662716809; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.fakku.net; HttpOnly
+      Access-Control-Allow-Origin:
+      - '*'
+      X-Varnish:
+      - '875604826'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      Dicks:
+      - PH
+      Cf-Ray:
+      - 157b252c01ff0b3e-NRT
+    body:
+      encoding: UTF-8
+      string: '{"related":[{"content_name":"Before the Pool Opens","content_url":"http:\/\/www.fakku.net\/manga\/before-the-pool-opens-english","content_description":"While
+        cleaning the school pool, Rio teases her friend Shunpei a bit too much.","content_language":"english","content_category":"manga","content_date":1322693342,"content_filesize":11,"content_favorites":1963,"content_comments":59,"content_pages":24,"content_poster":"Kizlan","content_poster_url":"http:\/\/www.fakku.net\/users\/kizlan","content_tags":[{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Mizugi","attribute_link":"\/tags\/mizugi"},{"attribute":"Schoolgirl","attribute_link":"\/tags\/schoolgirl"},{"attribute":"Forced","attribute_link":"\/tags\/forced"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"Kizlan","attribute_link":"\/translators\/kizlan"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Sahashi
+        Renya","attribute_link":"\/artists\/sahashi-renya"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/b\/beforethepoolopens_e\/thumbs\/002.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/b\/beforethepoolopens_e\/thumbs\/018.thumb.jpg"}},{"content_name":"A
+        Gargoyle at the Treasure Chest","content_url":"http:\/\/www.fakku.net\/manga\/a-gargoyle-at-the-treasure-chest-english","content_description":"A
+        boy treasure hunting in a dungeon is lost and discovers a treasure but the
+        chest is guarded by a gargoyle, well one thing of course leads to another.","content_language":"english","content_category":"manga","content_date":1368929794,"content_filesize":17,"content_favorites":3048,"content_comments":106,"content_pages":19,"content_poster":"njmanga","content_poster_url":"http:\/\/www.fakku.net\/users\/njmanga","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Dark
+        Skin","attribute_link":"\/tags\/darkskin"},{"attribute":"Monster Girl","attribute_link":"\/tags\/monstergirl"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"The
+        Lusty Lady Project","attribute_link":"\/translators\/the-lusty-lady-project"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Horitomo","attribute_link":"\/artists\/horitomo"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/a\/agargoyleatthetreasurechest_e\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/a\/agargoyleatthetreasurechest_e\/thumbs\/003.thumb.jpg"}},{"content_name":"Arterna
+        01","content_url":"http:\/\/www.fakku.net\/doujinshi\/arterna-01-english","content_description":"No
+        description has been written.","content_language":"english","content_category":"doujinshi","content_date":1234464425,"content_filesize":4,"content_favorites":225,"content_comments":27,"content_pages":27,"content_poster":"Anonymous","content_poster_url":"http:\/\/www.fakku.net\/users\/anonymous","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Mizugi","attribute_link":"\/tags\/mizugi"},{"attribute":"Schoolgirl","attribute_link":"\/tags\/schoolgirl"},{"attribute":"Pettanko","attribute_link":"\/tags\/pettanko"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"FAKKU","attribute_link":"\/translators\/fakku"}],"content_series":[{"attribute":"The
+        Melancholy of Haruhi Suzumiya","attribute_link":"\/series\/the-melancholy-of-haruhi-suzumiya"}],"content_artists":[{"attribute":"Hapoi-Dokoro","attribute_link":"\/artists\/hapoi-dokoro"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/a\/arterna_e\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/a\/arterna_e\/thumbs\/018.thumb.jpg"}},{"content_name":"The
+        Ghost Behind My Back? Little Monster''s Counterattack Part 2 (CH. 7)","content_url":"http:\/\/www.fakku.net\/manga\/the-ghost-behind-my-back-little-monsters-counterattack-part-2-ch-7-english","content_description":"The
+        vacation continues and Mayu wants in on the \"fun,\" too...","content_language":"english","content_category":"manga","content_date":1394818331,"content_filesize":36064200,"content_favorites":779,"content_comments":53,"content_pages":27,"content_poster":"LustyLady00","content_poster_url":"http:\/\/www.fakku.net\/users\/lustylady00","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Incest","attribute_link":"\/tags\/incest"},{"attribute":"Random","attribute_link":"\/tags\/random"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"The
+        Lusty Lady Project","attribute_link":"\/translators\/the-lusty-lady-project"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Katsura
+        Yoshihiro","attribute_link":"\/artists\/katsura-yoshihiro"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/t\/[Katsura_Yoshihiro]_Original_Work_-_The_Ghost_Behind_My_Back_Little_Monsters_Counterattack_Part_2_CH._7_\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/t\/[Katsura_Yoshihiro]_Original_Work_-_The_Ghost_Behind_My_Back_Little_Monsters_Counterattack_Part_2_CH._7_\/thumbs\/002.thumb.jpg"}},{"content_name":"I''ll
+        let you do it on the pool-side","content_url":"http:\/\/www.fakku.net\/manga\/ill-let-you-do-it-on-the-pool-side-english","content_description":"One
+        door closes, another one opens! ;-)<br>Visit us at <a href=\"http:\/\/mumeitl.com\"
+        target=\"_blank\">MumeiTL.com<\/a>!<br>\r\nDL-Link: <a href=\"http:\/\/depositfiles.com\/files\/difak2m3b\"
+        target=\"_blank\">http:\/\/depositfiles.com\/files\/difak2m3b<\/a>","content_language":"english","content_category":"manga","content_date":1351697552,"content_filesize":5,"content_favorites":2024,"content_comments":52,"content_pages":13,"content_poster":"mrmuk","content_poster_url":"http:\/\/www.fakku.net\/users\/mrmuk","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Mizugi","attribute_link":"\/tags\/mizugi"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"Mumei
+        Translations","attribute_link":"\/translators\/mumei-translations"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Shinbayagi","attribute_link":"\/artists\/shinbayagi"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/i\/illletyoudoitonthepoolside_e\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/i\/illletyoudoitonthepoolside_e\/thumbs\/010.thumb.jpg"}},{"content_name":"Summer
+        Time Sexy Girl","content_url":"http:\/\/www.fakku.net\/doujinshi\/summer-time-sexy-girl-english","content_description":"The
+        first part is full color and features consensual sex. The second part features
+        schoolgirl cosplay and an old man raping Azusa.","content_language":"english","content_category":"doujinshi","content_date":1253664298,"content_filesize":12,"content_favorites":933,"content_comments":42,"content_pages":23,"content_poster":"Shadow","content_poster_url":"http:\/\/www.fakku.net\/users\/shadow","content_tags":[{"attribute":"Color","attribute_link":"\/tags\/color"},{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Mizugi","attribute_link":"\/tags\/mizugi"},{"attribute":"Schoolgirl","attribute_link":"\/tags\/schoolgirl"},{"attribute":"Forced","attribute_link":"\/tags\/forced"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"redCoMet","attribute_link":"\/translators\/redcomet"}],"content_series":[{"attribute":"The
+        iDOLM@STER","attribute_link":"\/series\/the-idolmaster"}],"content_artists":[{"attribute":"TakayaKi","attribute_link":"\/artists\/takayaki"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/s\/summertimesexygirl_e\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/s\/summertimesexygirl_e\/thumbs\/007.thumb.jpg"}},{"content_name":"Osanana
+        Chichi","content_url":"http:\/\/www.fakku.net\/manga\/osanana-chichi-english","content_description":"Child
+        hood who have grown up together, one friend happen to grow faster than expected,
+        how will the other friend deal with it.","content_language":"english","content_category":"manga","content_date":1342938019,"content_filesize":10,"content_favorites":2507,"content_comments":95,"content_pages":21,"content_poster":"njmanga","content_poster_url":"http:\/\/www.fakku.net\/users\/njmanga","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Schoolgirl","attribute_link":"\/tags\/schoolgirl"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"},{"attribute":"Osananajimi","attribute_link":"\/tags\/osananajimi"}],"content_translators":[{"attribute":"The
+        Lusty Lady Project","attribute_link":"\/translators\/the-lusty-lady-project"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Bosshi","attribute_link":"\/artists\/bosshi"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/o\/osananachichi_e\/thumbs\/002.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/o\/osananachichi_e\/thumbs\/010.thumb.jpg"}},{"content_name":"Two
+        Piecies","content_url":"http:\/\/www.fakku.net\/manga\/two-piecies-english","content_description":"Parents
+        remarry, boy and girl become step brother and step sister, they dont like
+        the idea and decide to not be brother and sister.","content_language":"english","content_category":"manga","content_date":1348624472,"content_filesize":11,"content_favorites":3005,"content_comments":72,"content_pages":21,"content_poster":"njmanga","content_poster_url":"http:\/\/www.fakku.net\/users\/njmanga","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Schoolgirl","attribute_link":"\/tags\/schoolgirl"},{"attribute":"Random","attribute_link":"\/tags\/random"}],"content_translators":[{"attribute":"The
+        Lusty Lady Project","attribute_link":"\/translators\/the-lusty-lady-project"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Takemasa
+        Takeshi","attribute_link":"\/artists\/takemasa-takeshi"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/t\/twopiecies_e\/thumbs\/002.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/t\/twopiecies_e\/thumbs\/013.thumb.jpg"}},{"content_name":"I''ll
+        Make You a Miko","content_url":"http:\/\/www.fakku.net\/manga\/ill-make-you-a-miko-english","content_description":"Class
+        rep decides she want to be a miko shrine maiden over winter break and one
+        thing leads to another and her and the son of the shrine make winter break
+        memories","content_language":"english","content_category":"manga","content_date":1356421257,"content_filesize":8,"content_favorites":1167,"content_comments":33,"content_pages":17,"content_poster":"njmanga","content_poster_url":"http:\/\/www.fakku.net\/users\/njmanga","content_tags":[{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Schoolgirl","attribute_link":"\/tags\/schoolgirl"}],"content_translators":[{"attribute":"The
+        Lusty Lady Project","attribute_link":"\/translators\/the-lusty-lady-project"}],"content_series":[{"attribute":"Original
+        Work","attribute_link":"\/series\/original-work"}],"content_artists":[{"attribute":"Miyakawa
+        Hajime","attribute_link":"\/artists\/miyakawa-hajime"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/i\/illmakeyouamiko_e\/thumbs\/001.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/i\/illmakeyouamiko_e\/thumbs\/010.thumb.jpg"}},{"content_name":"Girls
+        Lacrosse Club Chapter 4","content_url":"http:\/\/www.fakku.net\/manga\/girls-lacrosse-club-chapter-4-english","content_description":"We
+        got Tan Girl now, commissioned by Starfox","content_language":"english","content_category":"manga","content_date":1373952196,"content_filesize":32073200,"content_favorites":2754,"content_comments":144,"content_pages":35,"content_poster":"njmanga","content_poster_url":"http:\/\/www.fakku.net\/users\/njmanga","content_tags":[{"attribute":"Paizuri","attribute_link":"\/tags\/paizuri"},{"attribute":"Vanilla","attribute_link":"\/tags\/vanilla"},{"attribute":"Oral","attribute_link":"\/tags\/oral"},{"attribute":"Teacher","attribute_link":"\/tags\/teacher"},{"attribute":"Oppai","attribute_link":"\/tags\/oppai"},{"attribute":"Schoolgirl","attribute_link":"\/tags\/schoolgirl"},{"attribute":"Dark
+        Skin","attribute_link":"\/tags\/darkskin"},{"attribute":"Tanlines","attribute_link":"\/tags\/tanlines"},{"attribute":"Hentai","attribute_link":"\/tags\/hentai"}],"content_translators":[{"attribute":"The
+        Lusty Lady Project","attribute_link":"\/translators\/the-lusty-lady-project"}],"content_series":[{"attribute":"Girls
+        Lacrosse Club","attribute_link":"\/series\/girls-lacrosse-club"}],"content_artists":[{"attribute":"Distance","attribute_link":"\/artists\/distance"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/g\/Girls_Lacrosse_Club_Chapter_4_English\/thumbs\/002.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/g\/Girls_Lacrosse_Club_Chapter_4_English\/thumbs\/006.thumb.jpg"}}],"total":11459,"page":1,"pages":1146}'
+    http_version: 
+  recorded_at: Sun, 10 Aug 2014 09:25:17 GMT
+recorded_with: VCR 2.9.2
