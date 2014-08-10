@@ -27,6 +27,9 @@ module Fappu
     end
 
 
+    def related
+    end
+
     def pages
       response = JSON.parse( URI.parse(read_online_url).read )
       arr = response['pages']
@@ -44,6 +47,10 @@ module Fappu
       arr.collect do |comment|
         Fappu::Comment.new(comment)
       end
+    end
+
+    def related
+      Fappu::Search.related(self)
     end
 
     private

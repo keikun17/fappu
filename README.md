@@ -42,7 +42,7 @@ Aside from their attributes, Manga instances respond to the following
  - comments(page: page) # WIP
  - download # WIP
  - pages
- - related # WIP
+ - related
 
 ### Tags
 
