@@ -9,12 +9,13 @@ describe Fappu::Search do
 
       it_behaves_like "a manga collection"
 
-      it "returns an array of Mangas" do
-        subject.each do |item|
-          expect(item).to be_a_kind_of(Fappu::Manga)
-        end
+      it "should include related manga related to pool sex" do
+        expect(subject.collect(&:title)).to include(
+          "Before the Pool Opens",
+          "I'll let you do it on the pool-side",
+          "Summer Time Sexy Girl",
+          "Two Piecies")
       end
-
     end
   end
 
