@@ -6,6 +6,8 @@ require 'ostruct'
 Bundler.setup
 
 require 'fappu'
+require 'shared_examples'
+
 
 VCR.configure do |vcr|
   vcr.cassette_library_dir = 'fixtures/cassettes'

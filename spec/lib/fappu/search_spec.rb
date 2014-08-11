@@ -7,7 +7,7 @@ describe Fappu::Search do
       let(:manga) { OpenStruct.new(url: 'https://api.fakku.net/manga/right-now-while-cleaning-the-pool')}
       subject { described_class.related(manga) }
 
-      it { is_expected.not_to be_empty }
+      it_behaves_like "a manga collection"
 
       it "returns an array of Mangas" do
         subject.each do |item|
@@ -23,13 +23,7 @@ describe Fappu::Search do
       let(:tag) { 'Netorare' }
       subject { described_class.tagged(tag) }
 
-      it { is_expected.not_to be_empty }
-
-      it "returns an array of Mangas" do
-        subject.each do |item|
-          expect(item).to be_a_kind_of(Fappu::Manga)
-        end
-      end
+      it_behaves_like "a manga collection"
 
       it "should include 'Yuru Bitch', 'Shujou Seikou II'" do
         expect(subject.map(&:title)).to include('Shujou Seikou II β', 'Yuru Bitch')
@@ -43,13 +37,7 @@ describe Fappu::Search do
       let(:search_terms) { "Sword Art Online"}
       subject {described_class.terms(search_terms)}
 
-      it { is_expected.not_to be_empty }
-
-      it "returns an array of Mangas" do
-        subject.each do |item|
-          expect(item).to be_a_kind_of(Fappu::Manga)
-        end
-      end
+      it_behaves_like "a manga collection"
 
       it "returns an array of SAO mangas" do
         expect(subject.map(&:title)).to include(
@@ -71,7 +59,7 @@ describe Fappu::Search do
 
   describe ".latest", vcr: {cassette_name: 'manga'} do
     subject { described_class.latest }
-    it { is_expected.not_to be_empty }
+    it_behaves_like "a manga collection"
 
     context "The first manga in the 'latest' list is 'My Mountain Village Journal Chapter 1'" do
       subject { described_class.latest.first }
@@ -123,16 +111,24 @@ describe Fappu::Search do
   end
 
   describe ".favorites",vcr: {cassette_name: 'manga'} do
-    subject { described_class.favorites.first }
+    subject { described_class.favorites }
+
+    it_behaves_like "a manga collection"
+
     context "Tiny boobs is the first favorite" do
+      subject { described_class.favorites.first }
       it { is_expected.to have_attributes(title: "Tiny Boobs Giant Tits History") }
     end
   end
 
 
   describe ".popular" ,vcr: {cassette_name: 'manga'} do
-    subject { described_class.popular.first }
+    subject { described_class.popular }
+
+    it_behaves_like "a manga collection"
+
     context "This siscon manga with extremely long title is in the list" do
+      subject { described_class.popular.first }
       it {
         is_expected.to have_attributes(title: "More than a little sister, less than a friend? / More than a little sister, less than a bride?")
       }
@@ -140,11 +136,13 @@ describe Fappu::Search do
   end
 
   describe ".controversial" ,vcr: {cassette_name: 'manga'} do
-    subject { described_class.controversial.first }
+    subject { described_class.controversial }
+
+    it_behaves_like "a manga collection"
+
     context "Maso Mess is first in the list of the controversial manga" do
-      it {
-        is_expected.to have_attributes(title: "Maso Mess Ch14")
-      }
+      subject { described_class.controversial.first }
+      it { is_expected.to have_attributes(title: "Maso Mess Ch14") }
     end
   end
 end
