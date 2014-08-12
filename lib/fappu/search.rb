@@ -69,7 +69,7 @@ module Fappu
 
     # Returns an array of related mangas
     def self.related(manga)
-      response =JSON.parse ( URI.parse(manga.url + "/related").read )
+      response = JSON.parse ( URI.parse(manga.url + "/related").read )
       arr = response["related"]
 
       arr.collect do |m|

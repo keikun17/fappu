@@ -28,6 +28,7 @@ module Fappu
 
 
     def related
+      Fappu::Search.related(self)
     end
 
     def pages
