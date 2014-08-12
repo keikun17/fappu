@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Sun, 10 Aug 2014 09:25:17 GMT
+      - Tue, 12 Aug 2014 07:38:37 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,12 +29,12 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d9903636c3c6b4ee5eea5e9a0d46877401407662716809; expires=Mon, 23-Dec-2019
+      - __cfduid=d8aad970e6d78478e9754a5541cf1ed461407829117007; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fakku.net; HttpOnly
       Access-Control-Allow-Origin:
       - '*'
       X-Varnish:
-      - '875604826'
+      - '901205818'
       Age:
       - '0'
       Via:
@@ -44,7 +44,7 @@ http_interactions:
       Dicks:
       - PH
       Cf-Ray:
-      - 157b252c01ff0b3e-NRT
+      - 158b03ad4c3f0bc3-HKG
     body:
       encoding: UTF-8
       string: '{"related":[{"content_name":"Before the Pool Opens","content_url":"http:\/\/www.fakku.net\/manga\/before-the-pool-opens-english","content_description":"While
@@ -99,5 +99,5 @@ http_interactions:
         Lusty Lady Project","attribute_link":"\/translators\/the-lusty-lady-project"}],"content_series":[{"attribute":"Girls
         Lacrosse Club","attribute_link":"\/series\/girls-lacrosse-club"}],"content_artists":[{"attribute":"Distance","attribute_link":"\/artists\/distance"}],"content_images":{"cover":"https:\/\/t.fakku.net\/images\/manga\/g\/Girls_Lacrosse_Club_Chapter_4_English\/thumbs\/002.thumb.jpg","sample":"https:\/\/t.fakku.net\/images\/manga\/g\/Girls_Lacrosse_Club_Chapter_4_English\/thumbs\/006.thumb.jpg"}}],"total":11459,"page":1,"pages":1146}'
     http_version: 
-  recorded_at: Sun, 10 Aug 2014 09:25:17 GMT
+  recorded_at: Tue, 12 Aug 2014 07:38:35 GMT
 recorded_with: VCR 2.9.2
