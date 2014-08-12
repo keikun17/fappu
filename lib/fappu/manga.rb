@@ -31,6 +31,13 @@ module Fappu
       Fappu::Search.related(self)
     end
 
+    def download_url
+      response = JSON.parse ( URI.parse(download_api_url).read )
+      response['downloads'].collect do |d|
+        d['download_url']
+      end
+    end
+
     def pages
       response = JSON.parse( URI.parse(read_online_url).read )
       arr = response['pages']
@@ -55,6 +62,11 @@ module Fappu
     end
 
     private
+    def download_api_url
+      comment_url = base_api_url
+      comment_url.path += "/download"
+      comment_url.to_s
+    end
 
     def set_tags(tags)
       @tags = tags.collect do |tag|

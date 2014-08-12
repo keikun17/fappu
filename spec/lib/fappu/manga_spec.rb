@@ -19,6 +19,13 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
 
     end
 
+    describe "#download_url", vcr: 'download_pool_sex' do
+      subject { manga.download_url }
+      it "returns the download link" do
+        is_expected.to include('http://www.sendspace.com/file/d5gd5v')
+      end
+    end
+
     # TODO WIP
     describe "#comments" do
 
