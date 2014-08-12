@@ -2,12 +2,10 @@ require 'spec_helper'
 
 describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
 
-
   context "The manga is 'Right now while cleaning the pool'", vcr: { cassette_name: 'pool_cleaning_comments' } do
     subject(:manga) { described_class.new(url: 'https://www.fakku.net/manga/right-now-while-cleaning-the-pool') }
 
     describe "#top_comments" do
-
       it "has comments" do
         expect(subject.top_comments.length).not_to eq(0)
       end
@@ -15,8 +13,6 @@ describe Fappu::Manga , vcr: {cassette_name: 'manga'} do
       it "returns comment objects" do
         expect(subject.top_comments.first).to be_a_kind_of(Fappu::Comment)
       end
-
-
     end
 
     describe "#download_url", vcr: 'download_pool_sex' do

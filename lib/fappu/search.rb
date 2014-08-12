@@ -76,30 +76,29 @@ module Fappu
         Fappu::Manga.new(manga_parameters(m))
       end
     end
-
     private
 
     # Removes the 'content' suffix for manga attributes from the json response
-    def self.manga_parameters(manga)
+    def self.manga_parameters(raw_manga_params)
       params = {
-        title: manga["content_name"],
-        url: manga["content_url"],
-        description: manga["content_description"],
-        language: manga["content_language"],
-        category: manga["content_category"],
-        date: manga["content_date"],
-        filesize: manga["content_filesize"],
-        favorites: manga["content_favorites"],
-        comment_count: manga["content_comments"],
-        page_count: manga["content_pages"],
-        poster: manga["content_poster"],
-        poster_url: manga["content_poster_url"],
-        tags: manga["content_tags"],
-        translators: manga["content_translators"],
-        series: manga["content_series"],
-        artists: manga["content_artists"],
-        images: manga["content_images"],
-        tags: manga["content_tags"]
+        title: raw_manga_params["content_name"],
+        url: raw_manga_params["content_url"],
+        description: raw_manga_params["content_description"],
+        language: raw_manga_params["content_language"],
+        category: raw_manga_params["content_category"],
+        date: raw_manga_params["content_date"],
+        filesize: raw_manga_params["content_filesize"],
+        favorites: raw_manga_params["content_favorites"],
+        comment_count: raw_manga_params["content_comments"],
+        page_count: raw_manga_params["content_pages"],
+        poster: raw_manga_params["content_poster"],
+        poster_url: raw_manga_params["content_poster_url"],
+        tags: raw_manga_params["content_tags"],
+        translators: raw_manga_params["content_translators"],
+        series: raw_manga_params["content_series"],
+        artists: raw_manga_params["content_artists"],
+        images: raw_manga_params["content_images"],
+        tags: raw_manga_params["content_tags"]
       }
     end
   end

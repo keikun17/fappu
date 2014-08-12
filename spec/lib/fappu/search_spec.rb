@@ -4,7 +4,7 @@ describe Fappu::Search do
 
   describe '.related' do
     context "Pool sex manga", vcr: {cassette_name: 'related_pool_sex_manga'  }do
-      let(:manga) { OpenStruct.new(url: 'https://api.fakku.net/manga/right-now-while-cleaning-the-pool')}
+      let(:manga) { Fappu::Manga.new(url: 'https://www.fakku.net/manga/right-now-while-cleaning-the-pool')}
       subject { described_class.related(manga) }
 
       it_behaves_like "a manga collection"
