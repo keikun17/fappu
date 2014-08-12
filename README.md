@@ -39,8 +39,7 @@ And to get the list of the most popular manga
 Aside from their attributes, Manga instances respond to the following
 
  - top_comments
- - comments(page: page) # WIP
- - download # WIP
+ - download
  - pages
  - related
 
