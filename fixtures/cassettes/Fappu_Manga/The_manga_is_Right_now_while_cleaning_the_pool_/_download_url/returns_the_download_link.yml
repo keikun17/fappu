@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.fakku.net/manga/right-now-while-cleaning-the-pool/download
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Tue, 12 Aug 2014 06:44:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d5798a7ad53cda8e8f7c56b4e9f2328501407825895026; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.fakku.net; HttpOnly
+      Access-Control-Allow-Origin:
+      - '*'
+      X-Varnish:
+      - '900662907'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      Dicks:
+      - PH
+      Cf-Ray:
+      - 158ab503e4330bb1-HKG
+    body:
+      encoding: UTF-8
+      string: '{"downloads":[{"download_type":"ss","download_url":"http:\/\/www.sendspace.com\/file\/d5gd5v","download_info":null,"download_count":0,"download_time":1398732730,"download_poster":"Jacob","download_poster_url":"http:\/\/www.fakku.net\/users\/jacob"}],"total":1}'
+    http_version: 
+  recorded_at: Tue, 12 Aug 2014 06:44:54 GMT
+recorded_with: VCR 2.9.2
