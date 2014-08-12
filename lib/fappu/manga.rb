@@ -57,11 +57,25 @@ module Fappu
       end
     end
 
-    def related
-      Fappu::Search.related(self)
+    def base_api_url
+      base_api_url = URI(url)
+
+      new_host = base_api_url.host.split('.')
+      new_host[0] = 'api'
+
+      base_api_url.host = new_host.join('.')
+      base_api_url.scheme = 'https'
+      base_api_url
     end
 
     private
+
+    def related_api_url
+      comment_url = base_api_url
+      comment_url.path += "/related"
+      comment_url.to_s
+    end
+
     def download_api_url
       comment_url = base_api_url
       comment_url.path += "/download"
@@ -81,16 +95,6 @@ module Fappu
     end
 
 
-    def base_api_url
-      base_api_url = URI(url)
-
-      new_host = base_api_url.host.split('.')
-      new_host[0] = 'api'
-
-      base_api_url.host = new_host.join('.')
-      base_api_url.scheme = 'https'
-      base_api_url
-    end
 
     def comment_api_url
       comment_url = base_api_url
